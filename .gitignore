@@ -2,7 +2,6 @@
 
 # Node modules
 node_modules/
-echo "node_modules/
 logs/
 *.log
 npm-debug.log*
@@ -30,3 +29,6 @@ coverage/
 *.swp
 *.swo
 studio/packages/ui/node_modules/@next/swc-darwin-arm64/" >> .gitignore
+node_modules/
+node_modules/
+studio/packages/ui/node_modules/
