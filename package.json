@@ -1,0 +1,78 @@
+{
+  "name": "capitala",
+  "description": "RevOps automated.",
+  "version": "0.0.0",
+  "author": "BJC",
+  "license": "Apache-2.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "build:studio": "turbo run build --filter=studio",
+    "dev": "turbo run dev --parallel",
+    "dev:reference": "turbo run dev --filter=reference --parallel",
+    "dev:studio": "turbo run dev --filter=studio --parallel",
+    "dev:database-design": "turbo run dev --filter=database-design --parallel","dev:design-system": "turbo run dev --filter=design-system --parallel",
+    "lint": "turbo run lint",
+    "typecheck": "turbo --continue typecheck",
+    "test:prettier": "prettier -c 'apps/**/*.{js,jsx,ts,tsx,css,md,mdx,json}'",
+    "format": "prettier --write \"apps/**/*.{js,jsx,ts,tsx,css,md,mdx,json}\" \"packages/pg-meta/**/*.ts\"",
+    "docker:dev": "cd docker && docker compose -f docker-compose.yml -f ./dev/docker-compose.dev.yml up --renew-anon-volumes",
+    "docker:up": "cd docker && docker compose up",
+    "docker:down": "cd docker && docker compose -f docker-compose.yml -f ./dev/docker-compose.dev.yml down --remove-orphans",
+    "docker:remove": "cd docker && docker compose -f docker-compose.yml -f ./dev/docker-compose.dev.yml rm -vfs",
+    "test:docs": "turbo run test --filter=docs",
+    "test:ui": "turbo run test --filter=ui",
+    "test:ui-patterns": "turbo run test --filter=ui-patterns",
+    "test:studio": "turbo run test --filter=studio",
+    "test:studio:watch": "turbo run test --filter=studio -- watch",
+    "test:playwright": "npm --prefix playwright-tests run test",
+    "perf:kong": "ab -t 5 -c 20 -T application/json http://localhost:8000/",
+    "perf:meta": "ab -t 5 -c 20 -T application/json http://localhost:5555/tables",
+    "generate:types": "supabase gen types typescript --local > ./supabase/functions/common/database-types.ts"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^4.0.0-alpha.8",
+    "prettier-plugin-sql-cst": "^0.11.0",
+    "sass": "^1.72.0",
+    "supabase": "^1.151.1",
+    "turbo": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advaluepartners/capa.git"
+  },
+  "engines": {
+    "npm": "^10.0.0",
+    "node": "^20.0.0"
+  },
+  "keywords": [
+    "postgres",
+    "firebase",
+    "storage",
+    "functions",
+    "database",
+    "auth"
+  ],
+  "packageManager": "npm@10.8.1",
+  "dependencies": {
+    "@june-so/analytics-next": "^2.0.0",
+    "@june-so/analytics-node": "^8.0.0",
+    "@sentry/nextjs": "^8.12.0",
+    "date-fns": "^3.6.0",
+    "hast-util-to-jsx-runtime": "^2.3.0",
+    "html-url-attributes": "^3.0.0",
+    "libpg-query": "^15.2.0",
+    "lucide-react": "^0.397.0",
+    "next": "^14.2.4",
+    "posthog-js": "^1.141.3",
+    "react-i18next": "^14.1.2",
+    "react-icons": "^5.2.1",
+    "react-markdown": "^8.0.0"
+  }
+  
+}
