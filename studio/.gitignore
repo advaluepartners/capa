@@ -37,3 +37,4 @@ yarn-error.log*
 /public/dashboard
 # Sentry Auth Token
 .sentryclirc
+darwin-arm64/next-swc.darwin-arm64.node
