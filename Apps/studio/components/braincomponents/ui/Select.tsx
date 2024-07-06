@@ -7,7 +7,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/lib/components/ui/Popover";
+} from "components/braincomponents/ui/Popover";
 import { cn } from "@/lib/utils";
 
 export type SelectOptionProps<T> = {

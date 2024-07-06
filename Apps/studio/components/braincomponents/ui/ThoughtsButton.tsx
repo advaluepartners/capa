@@ -1,5 +1,5 @@
-import Icon from "@/lib/components/ui/Icon/Icon";
-import Tooltip from "@/lib/components/ui/Tooltip/Tooltip";
+import Icon from "components/braincomponents/ui/Icon/Icon";
+import Tooltip from "components/braincomponents/ui/Tooltip/Tooltip";
 import { IconSize } from "@/lib/types/Icons";
 
 type ThoughtsButtonProps = {

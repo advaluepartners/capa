@@ -1,4 +1,4 @@
-import { ChatConfig } from "@/lib/context/ChatProvider/types";
+import { ChatConfig } from "lib/context/ChatProvider/types";
 const chatConfigLocalStorageKey = "chat-config";
 
 type PartialChatConfig = Partial<ChatConfig>;

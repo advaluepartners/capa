@@ -1,4 +1,4 @@
-import { MinimalBrainForUser } from "@/lib/context/BrainProvider/types";
+import { MinimalBrainForUser } from "lib/context/BrainProvider/types";
 
 export const sortBrainsByName = (
   minimalBrains: MinimalBrainForUser[]

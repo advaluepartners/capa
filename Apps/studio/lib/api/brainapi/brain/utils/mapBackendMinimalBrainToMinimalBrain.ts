@@ -1,7 +1,7 @@
 import {
   BackendMinimalBrainForUser,
   MinimalBrainForUser,
-} from "@/lib/context/BrainProvider/types";
+} from "lib/context/BrainProvider/types";
 
 export const mapBackendMinimalBrainToMinimalBrain = (
   backendMinimalBrain: BackendMinimalBrainForUser

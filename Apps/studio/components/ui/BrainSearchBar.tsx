@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import { TextInput } from "@/lib/components/ui/TextInput/TextInput";
+import { TextInput } from "components/braincomponents/ui/TextInput/TextInput";
 
 type BrainSearchBarProps = {
   searchQuery: string;

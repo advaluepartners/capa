@@ -3,8 +3,8 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import { useKnowledgeApi } from "@/lib/api/knowledge/useKnowledgeApi";
-import { useToast } from "@/lib/hooks";
-import { useUrlBrain } from "@/lib/hooks/useBrainIdFromUrl";
+import { useToast } from "hooks/brainhooks";
+import { useUrlBrain } from "hooks/brainhooks/useBrainIdFromUrl";
 import { Knowledge } from "@/lib/types/Knowledge";
 import { useEventTracking } from "@/services/analytics/june/useEventTracking";
 

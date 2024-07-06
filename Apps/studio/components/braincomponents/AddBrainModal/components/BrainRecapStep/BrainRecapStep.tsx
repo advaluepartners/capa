@@ -1,14 +1,14 @@
 import { Controller } from "react-hook-form";
 
 import { useFromConnectionsContext } from "@/app/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
-import { useUserApi } from "@/lib/api/user/useUserApi";
-import { MessageInfoBox } from "@/lib/components/ui/MessageInfoBox/MessageInfoBox";
-import QuivrButton from "@/lib/components/ui/QuivrButton/QuivrButton";
-import { TextAreaInput } from "@/lib/components/ui/TextAreaInput/TextAreaInput";
-import { TextInput } from "@/lib/components/ui/TextInput/TextInput";
-import { useKnowledgeToFeedContext } from "@/lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
-import { useOnboardingContext } from "@/lib/context/OnboardingProvider/hooks/useOnboardingContext";
-import { useUserData } from "@/lib/hooks/useUserData";
+import { useUserApi } from "lib/api/brainapi/user/useUserApi";
+import { MessageInfoBox } from "components/braincomponents/ui/MessageInfoBox/MessageInfoBox";
+import QuivrButton from "components/braincomponents/ui/QuivrButton/QuivrButton";
+import { TextAreaInput } from "components/braincomponents/ui/TextAreaInput/TextAreaInput";
+import { TextInput } from "components/braincomponents/ui/TextInput/TextInput";
+import { useKnowledgeToFeedContext } from "lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
+import { useOnboardingContext } from "lib/context/OnboardingProvider/hooks/useOnboardingContext";
+import { useUserData } from "hooks/brainhooks/useUserData";
 
 import { BrainRecapCard } from "./BrainRecapCard/BrainRecapCard";
 import styles from "./BrainRecapStep.module.scss";

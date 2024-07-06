@@ -9,12 +9,12 @@ import { useFromConnectionsContext } from "@/app/chat/[chatId]/components/Action
 import { PUBLIC_BRAINS_KEY } from "@/lib/api/brain/config";
 import { IntegrationSettings } from "@/lib/api/brain/types";
 import { useSync } from "@/lib/api/sync/useSync";
-import { CreateBrainProps } from "@/lib/components/AddBrainModal/types/types";
+import { CreateBrainProps } from "components/braincomponents/AddBrainModal/types/types";
 import { useKnowledgeToFeedInput } from "@/lib/components/KnowledgeToFeedInput/hooks/useKnowledgeToFeedInput.ts";
-import { useBrainContext } from "@/lib/context/BrainProvider/hooks/useBrainContext";
-import { useKnowledgeToFeedContext } from "@/lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
-import { useToast } from "@/lib/hooks";
-import { useKnowledgeToFeedFilesAndUrls } from "@/lib/hooks/useKnowledgeToFeed";
+import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
+import { useKnowledgeToFeedContext } from "lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
+import { useToast } from "hooks/brainhooks";
+import { useKnowledgeToFeedFilesAndUrls } from "hooks/brainhooks/useKnowledgeToFeed";
 
 import { useBrainCreationContext } from "../../../brainCreation-provider";
 

@@ -2,10 +2,10 @@
 
 import { useEffect } from "react";
 
-import PageHeader from "@/lib/components/PageHeader/PageHeader";
-import { UploadDocumentModal } from "@/lib/components/UploadDocumentModal/UploadDocumentModal";
-import { useBrainContext } from "@/lib/context/BrainProvider/hooks/useBrainContext";
-import { useKnowledgeToFeedContext } from "@/lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
+import PageHeader from "components/braincomponents/PageHeader/PageHeader";
+import { UploadDocumentModal } from "components/braincomponents/UploadDocumentModal/UploadDocumentModal";
+import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
+import { useKnowledgeToFeedContext } from "lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
 import { ButtonType } from "@/lib/types/QuivrButton";
 
 import { BrainManagementTabs } from "./BrainManagementTabs/BrainManagementTabs";

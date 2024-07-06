@@ -4,8 +4,8 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import { useSubscriptionApi } from "@/lib/api/subscription/useSubscriptionApi";
-import { useBrainContext } from "@/lib/context/BrainProvider/hooks/useBrainContext";
-import { useToast } from "@/lib/hooks";
+import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
+import { useToast } from "hooks/brainhooks";
 import { useEventTracking } from "@/services/analytics/june/useEventTracking";
 
 import { getBrainPermissions } from "../utils/getBrainPermissions";

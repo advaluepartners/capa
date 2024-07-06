@@ -1,7 +1,7 @@
 import { AxiosInstance } from "axios";
 import { UUID } from "crypto";
 
-import { ToastData } from "@/lib/components/ui/Toast/domain/types";
+import { ToastData } from "components/braincomponents/ui/Toast/domain/types";
 
 export type CrawlInputProps = {
   brainId: UUID;

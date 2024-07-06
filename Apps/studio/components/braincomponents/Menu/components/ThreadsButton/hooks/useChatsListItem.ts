@@ -4,8 +4,8 @@ import { useTranslation } from "react-i18next";
 
 import { ChatEntity } from "@/app/chat/[chatId]/types";
 import { useChatApi } from "@/lib/api/chat/useChatApi";
-import { useChatsContext } from "@/lib/context/ChatsProvider/hooks/useChatsContext";
-import { useToast } from "@/lib/hooks";
+import { useChatsContext } from "lib/context/ChatsProvider/hooks/useChatsContext";
+import { useToast } from "hooks/brainhooks";
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const useChatsListItem = (chat: ChatEntity) => {

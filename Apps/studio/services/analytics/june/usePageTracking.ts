@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
-import { useSupabase } from "@/lib/context/SupabaseProvider";
+import { useSupabase } from "lib/context/SupabaseProvider";
 
 import { useJune } from "./useJune";
 

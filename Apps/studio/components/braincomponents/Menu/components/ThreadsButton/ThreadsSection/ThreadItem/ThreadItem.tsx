@@ -2,8 +2,8 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 import { ChatEntity } from "@/app/chat/[chatId]/types";
-import Icon from "@/lib/components/ui/Icon/Icon";
-import { OptionsModal } from "@/lib/components/ui/OptionsModal/OptionsModal";
+import Icon from "components/braincomponents/ui/Icon/Icon";
+import { OptionsModal } from "components/braincomponents/ui/OptionsModal/OptionsModal";
 import { Option } from "@/lib/types/Options";
 
 import styles from "./ThreadItem.module.scss";

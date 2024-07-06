@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import { generateBrainAssignation } from "@/app/studio/[brainId]/BrainManagementTabs/components/PeopleTab/BrainUsers/utils/generateBrainAssignation";
 import { Subscription } from "@/lib/api/brain/brain";
 import { useBrainApi } from "@/lib/api/brain/useBrainApi";
-import { useToast } from "@/lib/hooks";
+import { useToast } from "hooks/brainhooks";
 
 import { BrainRoleAssignation } from "../../app/studio/[brainId]/BrainManagementTabs/components/PeopleTab/BrainUsers/types";
 

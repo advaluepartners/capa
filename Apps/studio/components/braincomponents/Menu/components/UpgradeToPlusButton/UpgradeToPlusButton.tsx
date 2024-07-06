@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 
-import { MenuButton } from "@/lib/components/Menu/components/MenuButton/MenuButton";
-import { StripePricingModal } from "@/lib/components/Stripe";
-import { useUserData } from "@/lib/hooks/useUserData";
+import { MenuButton } from "components/braincomponents/Menu/components/MenuButton/MenuButton";
+import { StripePricingModal } from "components/braincomponents/Stripe";
+import { useUserData } from "hooks/brainhooks/useUserData";
 
 export const UpgradeToPlusButton = (): JSX.Element => {
   const { userData } = useUserData();

@@ -1,7 +1,7 @@
 import { formatDistanceToNow } from "date-fns";
 
-import Icon from "@/lib/components/ui/Icon/Icon";
-import { useSupabase } from "@/lib/context/SupabaseProvider";
+import Icon from "components/braincomponents/ui/Icon/Icon";
+import { useSupabase } from "lib/context/SupabaseProvider";
 
 import styles from "./Notification.module.scss";
 

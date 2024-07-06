@@ -3,10 +3,10 @@ import axios from "axios";
 import { useEffect, useRef, useState } from "react";
 
 import { useKnowledgeApi } from "@/lib/api/knowledge/useKnowledgeApi";
-import Icon from "@/lib/components/ui/Icon/Icon";
-import { OptionsModal } from "@/lib/components/ui/OptionsModal/OptionsModal";
+import Icon from "components/braincomponents/ui/Icon/Icon";
+import { OptionsModal } from "components/braincomponents/ui/OptionsModal/OptionsModal";
 import { getFileIcon } from "@/lib/helpers/getFileIcon";
-import { useUrlBrain } from "@/lib/hooks/useBrainIdFromUrl";
+import { useUrlBrain } from "hooks/brainhooks/useBrainIdFromUrl";
 import { isUploadedKnowledge, Knowledge } from "@/lib/types/Knowledge";
 import { Option } from "@/lib/types/Options";
 

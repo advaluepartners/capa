@@ -4,11 +4,11 @@ import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import { useBrainApi } from "@/lib/api/brain/useBrainApi";
-import { useBrainContext } from "@/lib/context/BrainProvider/hooks/useBrainContext";
+import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
 import { defineMaxTokens } from "@/lib/helpers/defineMaxTokens";
 import { getAccessibleModels } from "@/lib/helpers/getAccessibleModels";
-import { useToast } from "@/lib/hooks";
-import { useUserData } from "@/lib/hooks/useUserData";
+import { useToast } from "hooks/brainhooks";
+import { useUserData } from "hooks/brainhooks/useUserData";
 
 import { useBrainFormState } from "./useBrainFormState";
 

@@ -4,8 +4,8 @@ import { useTranslation } from "react-i18next";
 import { KnowledgeToFeed } from "@/app/chat/[chatId]/components/ActionsBar/components";
 import { useFromConnectionsContext } from "@/app/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
 import { OpenedConnection } from "@/lib/api/sync/types";
-import { useBrainContext } from "@/lib/context/BrainProvider/hooks/useBrainContext";
-import { useKnowledgeToFeedContext } from "@/lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
+import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
+import { useKnowledgeToFeedContext } from "lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
 import { createHandleGetButtonProps } from "@/lib/helpers/handleConnectionButtons";
 
 import styles from "./UploadDocumentModal.module.scss";

@@ -4,8 +4,8 @@ import { UUID } from "crypto";
 
 import { BrainUsers } from "@/app/studio/[brainId]/BrainManagementTabs/components/PeopleTab/BrainUsers/BrainUsers";
 import { UserToInvite } from "@/app/studio/[brainId]/BrainManagementTabs/components/PeopleTab/BrainUsers/components/UserToInvite/UserToInvite";
-import QuivrButton from "@/lib/components/ui/QuivrButton/QuivrButton";
-import { useShareBrain } from "@/lib/hooks/useShareBrain";
+import QuivrButton from "components/braincomponents/ui/QuivrButton/QuivrButton";
+import { useShareBrain } from "hooks/brainhooks/useShareBrain";
 
 import styles from "./PeopleTab.module.scss";
 

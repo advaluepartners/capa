@@ -6,8 +6,8 @@ import { MenuControlButton } from "@/app/chat/[chatId]/components/ActionsBar/com
 import { useChatsList } from "@/app/chat/[chatId]/hooks/useChatsList";
 import { QuivrLogo } from "@/lib/assets/QuivrLogo";
 import { nonProtectedPaths } from "@/lib/config/routesConfig";
-import { useMenuContext } from "@/lib/context/MenuProvider/hooks/useMenuContext";
-import { useUserSettingsContext } from "@/lib/context/UserSettingsProvider/hooks/useUserSettingsContext";
+import { useMenuContext } from "lib/context/MenuProvider/hooks/useMenuContext";
+import { useUserSettingsContext } from "lib/context/UserSettingsProvider/hooks/useUserSettingsContext";
 
 import styles from "./Menu.module.scss";
 import { AnimatedDiv } from "./components/AnimationDiv";

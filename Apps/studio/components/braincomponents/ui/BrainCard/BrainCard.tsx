@@ -1,7 +1,7 @@
 import { capitalCase } from "change-case";
 import Image from "next/image";
 
-import { useUserSettingsContext } from "@/lib/context/UserSettingsProvider/hooks/useUserSettingsContext";
+import { useUserSettingsContext } from "lib/context/UserSettingsProvider/hooks/useUserSettingsContext";
 
 import styles from "./BrainCard.module.scss";
 

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-import { useSearchModalContext } from "@/lib/context/SearchModalProvider/hooks/useSearchModalContext";
+import { useSearchModalContext } from "lib/context/SearchModalProvider/hooks/useSearchModalContext";
 
 import styles from "./SearchModal.module.scss";
 

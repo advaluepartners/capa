@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 
-import { useDevice } from "@/lib/hooks/useDevice";
+import { useDevice } from "hooks/brainhooks/useDevice";
 
 type MenuContextType = {
   isOpened: boolean;

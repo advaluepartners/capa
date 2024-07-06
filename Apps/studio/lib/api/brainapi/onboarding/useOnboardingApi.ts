@@ -1,4 +1,4 @@
-import { useAxios } from "@/lib/hooks";
+import { useAxios } from "hooks/brainhooks";
 import { Onboarding } from "@/lib/types/Onboarding";
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types

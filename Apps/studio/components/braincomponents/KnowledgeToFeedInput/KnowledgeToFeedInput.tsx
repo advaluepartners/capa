@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
-import Button from "@/lib/components/ui/Button";
-import { useKnowledgeToFeedContext } from "@/lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
+import Button from "components/braincomponents/ui/Button";
+import { useKnowledgeToFeedContext } from "lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
 
 import { FeedItems } from "./components";
 import { Crawler } from "./components/Crawler";

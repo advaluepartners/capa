@@ -3,8 +3,8 @@ import { useTranslation } from "react-i18next";
 
 import { Subscription } from "@/lib/api/brain/brain";
 import { useBrainApi } from "@/lib/api/brain/useBrainApi";
-import { useSupabase } from "@/lib/context/SupabaseProvider";
-import { useToast } from "@/lib/hooks";
+import { useSupabase } from "lib/context/SupabaseProvider";
+import { useToast } from "hooks/brainhooks";
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const useBrainUsers = (brainId: string) => {

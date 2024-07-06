@@ -2,7 +2,7 @@ import { UUID } from "crypto";
 import { useEffect } from "react";
 import { useFormContext } from "react-hook-form";
 
-import { useBrainContext } from "@/lib/context/BrainProvider/hooks/useBrainContext";
+import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
 
 import { getBrainPermissions } from "../../../utils/getBrainPermissions";
 

@@ -2,9 +2,9 @@
 
 import { Controller } from "react-hook-form";
 
-import { FieldHeader } from "@/lib/components/ui/FieldHeader/FieldHeader";
-import { TextAreaInput } from "@/lib/components/ui/TextAreaInput/TextAreaInput";
-import { TextInput } from "@/lib/components/ui/TextInput/TextInput";
+import { FieldHeader } from "components/braincomponents/ui/FieldHeader/FieldHeader";
+import { TextAreaInput } from "components/braincomponents/ui/TextAreaInput/TextAreaInput";
+import { TextInput } from "components/braincomponents/ui/TextInput/TextInput";
 
 import styles from "./GeneralInformation.module.scss";
 

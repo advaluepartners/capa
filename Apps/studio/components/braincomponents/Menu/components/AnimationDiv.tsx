@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import { useMenuContext } from "@/lib/context/MenuProvider/hooks/useMenuContext";
+import { useMenuContext } from "lib/context/MenuProvider/hooks/useMenuContext";
 
 type AnimatedDivProps = {
   children: React.ReactNode;

@@ -1,7 +1,7 @@
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
-import { useUserData } from "@/lib/hooks/useUserData";
+import { useUserData } from "hooks/brainhooks/useUserData";
 
 import {
   boot as bootIntercom,

@@ -3,10 +3,10 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import { useUserApi } from "@/lib/api/user/useUserApi";
-import { MenuButton } from "@/lib/components/Menu/components/MenuButton/MenuButton";
-import Icon from "@/lib/components/ui/Icon/Icon";
-import { useUserSettingsContext } from "@/lib/context/UserSettingsProvider/hooks/useUserSettingsContext";
-import { useUserData } from "@/lib/hooks/useUserData";
+import { MenuButton } from "components/braincomponents/Menu/components/MenuButton/MenuButton";
+import Icon from "components/braincomponents/ui/Icon/Icon";
+import { useUserSettingsContext } from "lib/context/UserSettingsProvider/hooks/useUserSettingsContext";
+import { useUserData } from "hooks/brainhooks/useUserData";
 
 import styles from "./ProfileButton.module.scss";
 

@@ -1,4 +1,4 @@
-import { MinimalBrainForUser } from "@/lib/context/BrainProvider/types";
+import { MinimalBrainForUser } from "lib/context/BrainProvider/types";
 
 import { BrainItem } from "./BrainItem/BrainItem";
 import styles from "./BrainsList.module.scss";

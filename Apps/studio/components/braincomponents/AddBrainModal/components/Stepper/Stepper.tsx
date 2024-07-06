@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Icon } from "@/lib/components/ui/Icon/Icon";
+import { Icon } from "components/braincomponents/ui/Icon/Icon";
 
 import styles from "./Stepper.module.scss";
 

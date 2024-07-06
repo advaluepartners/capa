@@ -5,8 +5,8 @@ import { useTranslation } from "react-i18next";
 
 import { useBrainApi } from "@/lib/api/brain/useBrainApi";
 import { usePromptApi } from "@/lib/api/prompt/usePromptApi";
-import { useBrainContext } from "@/lib/context/BrainProvider/hooks/useBrainContext";
-import { useToast } from "@/lib/hooks";
+import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
+import { useToast } from "hooks/brainhooks";
 
 import { useBrainFormState } from "./useBrainFormState";
 

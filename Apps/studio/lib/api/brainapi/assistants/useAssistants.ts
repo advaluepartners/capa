@@ -1,4 +1,4 @@
-import { useAxios } from "@/lib/hooks";
+import { useAxios } from "hooks/brainhooks";
 
 import { getAssistants, processAssistant } from "./assistants";
 import { ProcessAssistantRequest } from "./types";

@@ -1,6 +1,6 @@
 import { UUID } from "crypto";
 
-import { useAxios } from "@/lib/hooks";
+import { useAxios } from "hooks/brainhooks";
 
 import {
   deleteKnowledge,

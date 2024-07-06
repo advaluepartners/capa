@@ -3,7 +3,7 @@ import { vi } from "vitest";
 
 import { DEFAULT_BACKEND_URL } from "@/lib/config/CONSTANTS";
 
-vi.mock("@/lib/context/SupabaseProvider", () => ({
+vi.mock("lib/context/SupabaseProvider", () => ({
   useSupabase: () => ({}),
 }));
 

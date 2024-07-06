@@ -1,7 +1,7 @@
 import { createHash } from "crypto";
 import { useEffect, useState } from "react";
 
-import { useSupabase } from "@/lib/context/SupabaseProvider";
+import { useSupabase } from "lib/context/SupabaseProvider";
 
 // Gravatar images may be requested just like a normal image, using an IMG tag. To get an image specific to a user, you must first calculate their email hash.
 // The most basic image request URL looks like this:

@@ -1,6 +1,6 @@
 import { TFunction } from "i18next";
 
-import { ToastData } from "@/lib/components/ui/Toast/domain/types";
+import { ToastData } from "components/braincomponents/ui/Toast/domain/types";
 
 export const isBrainNameValid = (
   name: string,

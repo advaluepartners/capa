@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { useSupabase } from "@/lib/context/SupabaseProvider";
+import { useSupabase } from "lib/context/SupabaseProvider";
 
 import { Notification } from "./Notification/Notification";
 import styles from "./Notifications.module.scss";

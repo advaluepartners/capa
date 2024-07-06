@@ -3,8 +3,8 @@
 import { useCallback, useEffect } from "react";
 import { useFormContext } from "react-hook-form";
 
-import { Brain } from "@/lib/context/BrainProvider/types";
-import { useUrlBrain } from "@/lib/hooks/useBrainIdFromUrl";
+import { Brain } from "lib/context/BrainProvider/types";
+import { useUrlBrain } from "hooks/brainhooks/useBrainIdFromUrl";
 import { BrainConfig, Model } from "@/lib/types/BrainConfig";
 
 import { useBrainFetcher } from "../../../hooks/useBrainFetcher";

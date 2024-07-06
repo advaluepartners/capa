@@ -1,7 +1,7 @@
 import { UUID } from "crypto";
 
-import { FieldHeader } from "@/lib/components/ui/FieldHeader/FieldHeader";
-import { SingleSelector } from "@/lib/components/ui/SingleSelector/SingleSelector";
+import { FieldHeader } from "components/braincomponents/ui/FieldHeader/FieldHeader";
+import { SingleSelector } from "components/braincomponents/ui/SingleSelector/SingleSelector";
 import { defineMaxTokens } from "@/lib/helpers/defineMaxTokens";
 import { Model } from "@/lib/types/BrainConfig";
 

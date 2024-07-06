@@ -1,4 +1,4 @@
-import { useAxios } from "@/lib/hooks";
+import { useAxios } from "hooks/brainhooks";
 
 import { getBrainsUsages } from "./analytics";
 import { Range } from "./types";

@@ -1,5 +1,5 @@
-import { useMenuContext } from "@/lib/context/MenuProvider/hooks/useMenuContext";
-import { useDevice } from "@/lib/hooks/useDevice";
+import { useMenuContext } from "lib/context/MenuProvider/hooks/useMenuContext";
+import { useDevice } from "hooks/brainhooks/useDevice";
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const useOutsideClickListener = () => {

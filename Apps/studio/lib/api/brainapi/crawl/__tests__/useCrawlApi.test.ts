@@ -6,7 +6,7 @@ import { useCrawlApi } from "../useCrawlApi";
 
 const axiosPostMock = vi.fn(() => ({}));
 
-vi.mock("@/lib/hooks", () => ({
+vi.mock("hooks/brainhooks", () => ({
   useAxios: () => ({
     axiosInstance: {
       post: axiosPostMock,

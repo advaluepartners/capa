@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import { useBrainContext } from "@/lib/context/BrainProvider/hooks/useBrainContext";
-import { useUserSettingsContext } from "@/lib/context/UserSettingsProvider/hooks/useUserSettingsContext";
+import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
+import { useUserSettingsContext } from "lib/context/UserSettingsProvider/hooks/useUserSettingsContext";
 
 import styles from "./CurrentBrain.module.scss";
 

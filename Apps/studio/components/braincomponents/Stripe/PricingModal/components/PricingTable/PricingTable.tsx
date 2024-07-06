@@ -1,4 +1,4 @@
-import { MessageInfoBox } from "@/lib/components/ui/MessageInfoBox/MessageInfoBox";
+import { MessageInfoBox } from "components/braincomponents/ui/MessageInfoBox/MessageInfoBox";
 
 import styles from "./PricingTable.module.scss";
 

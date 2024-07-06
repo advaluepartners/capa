@@ -7,7 +7,7 @@ import {
   Brain,
   MinimalBrainForUser,
   PublicBrain,
-} from "@/lib/context/BrainProvider/types";
+} from "lib/context/BrainProvider/types";
 
 import {
   CreateBrainInput,

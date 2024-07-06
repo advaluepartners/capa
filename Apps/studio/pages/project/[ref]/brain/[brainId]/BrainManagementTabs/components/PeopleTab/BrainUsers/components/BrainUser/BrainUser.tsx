@@ -1,6 +1,6 @@
-import { Select } from "@/lib/components/ui/Select";
-import { TextInput } from "@/lib/components/ui/TextInput/TextInput";
-import { useBrainContext } from "@/lib/context/BrainProvider/hooks/useBrainContext";
+import { Select } from "components/braincomponents/ui/Select";
+import { TextInput } from "components/braincomponents/ui/TextInput/TextInput";
+import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
 
 import { RemoveAccessIcon } from "./components/RemoveAccessIcon";
 import { useBrainUser } from "./hooks/useBrainUser";

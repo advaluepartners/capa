@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import Icon from "@/lib/components/ui/Icon/Icon";
-import { useSearchModalContext } from "@/lib/context/SearchModalProvider/hooks/useSearchModalContext";
+import Icon from "components/braincomponents/ui/Icon/Icon";
+import { useSearchModalContext } from "lib/context/SearchModalProvider/hooks/useSearchModalContext";
 
 import styles from "./DiscussionButton.module.scss";
 

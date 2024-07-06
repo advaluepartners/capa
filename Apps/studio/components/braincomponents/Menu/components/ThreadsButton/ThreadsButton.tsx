@@ -2,8 +2,8 @@ import { isToday } from "date-fns";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import { FoldableSection } from "@/lib/components/ui/FoldableSection/FoldableSection";
-import { useChatsContext } from "@/lib/context/ChatsProvider/hooks/useChatsContext";
+import { FoldableSection } from "components/braincomponents/ui/FoldableSection/FoldableSection";
+import { useChatsContext } from "lib/context/ChatsProvider/hooks/useChatsContext";
 
 import styles from "./ThreadsButton.module.scss";
 import { ThreadsSection } from "./ThreadsSection/ThreadsSection";

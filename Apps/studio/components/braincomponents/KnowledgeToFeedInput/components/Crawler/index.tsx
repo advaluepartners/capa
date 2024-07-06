@@ -2,8 +2,8 @@
 import { useTranslation } from "react-i18next";
 import { MdSend } from "react-icons/md";
 
-import Button from "@/lib/components/ui/Button";
-import Field from "@/lib/components/ui/Field";
+import Button from "components/braincomponents/ui/Button";
+import Field from "components/braincomponents/ui/Field";
 
 import { useCrawler } from "./hooks/useCrawler";
 

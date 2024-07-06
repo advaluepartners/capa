@@ -8,7 +8,7 @@ import { useOnboardingApi } from "../useOnboardingApi";
 const axiosGetMock = vi.fn(() => ({}));
 const axiosPutMock = vi.fn(() => ({}));
 
-vi.mock("@/lib/hooks", () => ({
+vi.mock("hooks/brainhooks", () => ({
   useAxios: () => ({
     axiosInstance: {
       get: axiosGetMock,

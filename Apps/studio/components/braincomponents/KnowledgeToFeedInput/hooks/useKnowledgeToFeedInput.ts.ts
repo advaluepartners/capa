@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { useCrawlApi } from "@/lib/api/crawl/useCrawlApi";
 import { useUploadApi } from "@/lib/api/upload/useUploadApi";
 import { getAxiosErrorParams } from "@/lib/helpers/getAxiosErrorParams";
-import { useToast } from "@/lib/hooks";
+import { useToast } from "hooks/brainhooks";
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const useKnowledgeToFeedInput = () => {

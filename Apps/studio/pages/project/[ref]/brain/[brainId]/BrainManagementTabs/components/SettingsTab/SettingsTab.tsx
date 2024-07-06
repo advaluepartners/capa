@@ -3,9 +3,9 @@ import { FormProvider, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { FaSpinner } from "react-icons/fa";
 
-import { MessageInfoBox } from "@/lib/components/ui/MessageInfoBox/MessageInfoBox";
-import QuivrButton from "@/lib/components/ui/QuivrButton/QuivrButton";
-import { Brain } from "@/lib/context/BrainProvider/types";
+import { MessageInfoBox } from "components/braincomponents/ui/MessageInfoBox/MessageInfoBox";
+import QuivrButton from "components/braincomponents/ui/QuivrButton/QuivrButton";
+import { Brain } from "lib/context/BrainProvider/types";
 
 import styles from "./SettingsTab.module.scss";
 import { GeneralInformation } from "./components/GeneralInformation/GeneralInformation";

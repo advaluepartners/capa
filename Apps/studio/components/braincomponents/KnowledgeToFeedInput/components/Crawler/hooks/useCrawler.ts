@@ -2,11 +2,11 @@
 import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import { useKnowledgeToFeedContext } from "@/lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
-import { useSupabase } from "@/lib/context/SupabaseProvider";
-import { useToast } from "@/lib/hooks";
-import { useOnboarding } from "@/lib/hooks/useOnboarding";
-import { useOnboardingTracker } from "@/lib/hooks/useOnboardingTracker";
+import { useKnowledgeToFeedContext } from "lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
+import { useSupabase } from "lib/context/SupabaseProvider";
+import { useToast } from "hooks/brainhooks";
+import { useOnboarding } from "hooks/brainhooks/useOnboarding";
+import { useOnboardingTracker } from "hooks/brainhooks/useOnboardingTracker";
 import { redirectToLogin } from "@/lib/router/redirectToLogin";
 import { useEventTracking } from "@/services/analytics/june/useEventTracking";
 

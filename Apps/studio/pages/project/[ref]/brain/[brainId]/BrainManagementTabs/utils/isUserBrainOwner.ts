@@ -1,6 +1,6 @@
 import { UUID } from "crypto";
 
-import { MinimalBrainForUser } from "@/lib/context/BrainProvider/types";
+import { MinimalBrainForUser } from "lib/context/BrainProvider/types";
 
 type IsUserBrainOwnerProps = {
   userAccessibleBrains: MinimalBrainForUser[];

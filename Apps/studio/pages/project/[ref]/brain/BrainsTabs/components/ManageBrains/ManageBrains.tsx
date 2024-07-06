@@ -1,4 +1,4 @@
-import Spinner from "@/lib/components/ui/Spinner";
+import Spinner from "components/braincomponents/ui/Spinner";
 
 import { BrainSearchBar } from "./BrainSearchBar";
 import { BrainsList } from "./BrainsList/BrainsList";

@@ -1,6 +1,6 @@
 import { ChangeEvent } from "react";
 
-import { SingleSelector } from "@/lib/components/ui/SingleSelector/SingleSelector";
+import { SingleSelector } from "components/braincomponents/ui/SingleSelector/SingleSelector";
 import { Prompt } from "@/lib/types/Prompt";
 
 import { usePublicPromptsList } from "./hooks/usePublicPromptsList";
