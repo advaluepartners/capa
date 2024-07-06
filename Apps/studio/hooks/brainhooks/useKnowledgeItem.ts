@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import { useKnowledgeApi } from "@/lib/api/knowledge/useKnowledgeApi";
+import { useKnowledgeApi } from "lib/api/brainapi/knowledge/useKnowledgeApi";
 import { useToast } from "hooks/brainhooks";
 import { useUrlBrain } from "hooks/brainhooks/useBrainIdFromUrl";
 import { Knowledge } from "@/lib/types/Knowledge";

@@ -1,4 +1,4 @@
-import { useSync } from "@/lib/api/sync/useSync";
+import { useSync } from "lib/api/brainapi/sync/useSync";
 
 import styles from "./ConnectionCards.module.scss";
 import { ConnectionSection } from "./ConnectionSection/ConnectionSection";

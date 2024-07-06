@@ -2,7 +2,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-import { useUserApi } from "@/lib/api/user/useUserApi";
+import { useUserApi } from "lib/api/brainapi/user/useUserApi";
 import { MenuButton } from "components/braincomponents/Menu/components/MenuButton/MenuButton";
 import Icon from "components/braincomponents/ui/Icon/Icon";
 import { useUserSettingsContext } from "lib/context/UserSettingsProvider/hooks/useUserSettingsContext";

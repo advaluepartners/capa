@@ -3,8 +3,8 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import { useBrainApi } from "@/lib/api/brain/useBrainApi";
-import { usePromptApi } from "@/lib/api/prompt/usePromptApi";
+import { useBrainApi } from "lib/api/brainapi/brain/useBrainApi";
+import { usePromptApi } from "lib/api/brainapi/prompt/usePromptApi";
 import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
 import { useToast } from "hooks/brainhooks";
 

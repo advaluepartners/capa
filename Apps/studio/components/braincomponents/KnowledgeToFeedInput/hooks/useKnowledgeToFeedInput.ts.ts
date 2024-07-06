@@ -2,8 +2,8 @@ import { UUID } from "crypto";
 import { useCallback } from "react";
 import { useTranslation } from "react-i18next";
 
-import { useCrawlApi } from "@/lib/api/crawl/useCrawlApi";
-import { useUploadApi } from "@/lib/api/upload/useUploadApi";
+import { useCrawlApi } from "lib/api/brainapi/crawl/useCrawlApi";
+import { useUploadApi } from "lib/api/brainapi/upload/useUploadApi";
 import { getAxiosErrorParams } from "@/lib/helpers/getAxiosErrorParams";
 import { useToast } from "hooks/brainhooks";
 

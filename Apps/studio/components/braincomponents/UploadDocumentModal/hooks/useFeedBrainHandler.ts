@@ -1,7 +1,7 @@
 import { UUID } from "crypto";
 
 import { useFromConnectionsContext } from "@/app/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
-import { useSync } from "@/lib/api/sync/useSync";
+import { useSync } from "lib/api/brainapi/sync/useSync";
 import { useKnowledgeToFeedInput } from "components/braincomponents/KnowledgeToFeedInput/hooks/useKnowledgeToFeedInput.ts";
 import { useKnowledgeToFeedFilesAndUrls } from "hooks/brainhooks/useKnowledgeToFeed";
 import { useOnboarding } from "hooks/brainhooks/useOnboarding";

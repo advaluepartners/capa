@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
 
-import { IntegrationBrains } from "@/lib/api/brain/types";
+import { IntegrationBrains } from "lib/api/brainapi/brain/types";
 
 import { StepValue } from "./types/types";
 

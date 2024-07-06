@@ -1,8 +1,8 @@
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useParams } from "next/navigation";
 
-import { ONBOARDING_DATA_KEY } from "@/lib/api/onboarding/config";
-import { useOnboardingApi } from "@/lib/api/onboarding/useOnboardingApi";
+import { ONBOARDING_DATA_KEY } from "lib/api/brainapi/onboarding/config";
+import { useOnboardingApi } from "lib/api/brainapi/onboarding/useOnboardingApi";
 
 import { Onboarding } from "../types/Onboarding";
 

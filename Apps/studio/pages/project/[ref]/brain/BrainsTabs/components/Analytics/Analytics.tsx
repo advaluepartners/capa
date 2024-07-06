@@ -15,8 +15,8 @@ import { useLayoutEffect, useState } from "react";
 import { Line } from "react-chartjs-2";
 
 import { formatMinimalBrainsToSelectComponentInput } from "@/app/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/utils/formatMinimalBrainsToSelectComponentInput";
-import { Range } from "@/lib/api/analytics/types";
-import { useAnalytics } from "@/lib/api/analytics/useAnalyticsApi";
+import { Range } from "lib/api/brainapi/analytics/types";
+import { useAnalytics } from "lib/api/brainapi/analytics/useAnalyticsApi";
 import { LoaderIcon } from "components/braincomponents/ui/LoaderIcon/LoaderIcon";
 import { MessageInfoBox } from "components/braincomponents/ui/MessageInfoBox/MessageInfoBox";
 import { SingleSelector } from "components/braincomponents/ui/SingleSelector/SingleSelector";

@@ -1,7 +1,7 @@
 import { Controller, FormProvider, useForm } from "react-hook-form";
 
-import { useUserApi } from "@/lib/api/user/useUserApi";
-import { CompanySize, UsagePurpose } from "@/lib/api/user/user";
+import { useUserApi } from "lib/api/brainapi/user/useUserApi";
+import { CompanySize, UsagePurpose } from "lib/api/brainapi/user/user";
 import { Modal } from "components/braincomponents/ui/Modal/Modal";
 import { useOnboardingContext } from "lib/context/OnboardingProvider/hooks/useOnboardingContext";
 

@@ -2,7 +2,7 @@
 import axios from "axios";
 import { useEffect, useRef, useState } from "react";
 
-import { useKnowledgeApi } from "@/lib/api/knowledge/useKnowledgeApi";
+import { useKnowledgeApi } from "lib/api/brainapi/knowledge/useKnowledgeApi";
 import Icon from "components/braincomponents/ui/Icon/Icon";
 import { OptionsModal } from "components/braincomponents/ui/OptionsModal/OptionsModal";
 import { getFileIcon } from "@/lib/helpers/getFileIcon";

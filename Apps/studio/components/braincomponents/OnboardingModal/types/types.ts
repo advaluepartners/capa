@@ -1,4 +1,4 @@
-import { CompanySize } from "@/lib/api/user/user";
+import { CompanySize } from "lib/api/brainapi/user/user";
 
 export type OnboardingProps = {
   username: string;

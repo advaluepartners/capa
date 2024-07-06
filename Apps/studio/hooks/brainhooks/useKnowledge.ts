@@ -1,8 +1,8 @@
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { UUID } from "crypto";
 
-import { getKnowledgeDataKey } from "@/lib/api/knowledge/config";
-import { useKnowledgeApi } from "@/lib/api/knowledge/useKnowledgeApi";
+import { getKnowledgeDataKey } from "lib/api/brainapi/knowledge/config";
+import { useKnowledgeApi } from "lib/api/brainapi/knowledge/useKnowledgeApi";
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const useKnowledge = ({ brainId }: { brainId?: UUID }) => {

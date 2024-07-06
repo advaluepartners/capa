@@ -2,8 +2,8 @@ import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { UUID } from "crypto";
 import { useRouter } from "next/navigation";
 
-import { getBrainDataKey } from "@/lib/api/brain/config";
-import { useBrainApi } from "@/lib/api/brain/useBrainApi";
+import { getBrainDataKey } from "lib/api/brainapi/brain/config";
+import { useBrainApi } from "lib/api/brainapi/brain/useBrainApi";
 
 type UseBrainFetcherProps = {
   brainId?: UUID;

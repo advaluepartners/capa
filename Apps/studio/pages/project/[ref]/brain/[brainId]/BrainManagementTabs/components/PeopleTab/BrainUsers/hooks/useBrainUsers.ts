@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import { Subscription } from "@/lib/api/brain/brain";
-import { useBrainApi } from "@/lib/api/brain/useBrainApi";
+import { Subscription } from "lib/api/brainapi/brain/brain";
+import { useBrainApi } from "lib/api/brainapi/brain/useBrainApi";
 import { useSupabase } from "lib/context/SupabaseProvider";
 import { useToast } from "hooks/brainhooks";
 

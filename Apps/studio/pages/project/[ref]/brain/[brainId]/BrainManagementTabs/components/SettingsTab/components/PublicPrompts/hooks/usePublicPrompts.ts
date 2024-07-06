@@ -1,6 +1,6 @@
 import { ChangeEvent, useEffect, useState } from "react";
 
-import { usePromptApi } from "@/lib/api/prompt/usePromptApi";
+import { usePromptApi } from "lib/api/brainapi/prompt/usePromptApi";
 import { Prompt } from "@/lib/types/Prompt";
 
 type UsePublicPromptsProps = {

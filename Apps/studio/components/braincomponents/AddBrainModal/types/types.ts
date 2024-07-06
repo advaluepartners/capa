@@ -1,5 +1,5 @@
-import { CreateBrainInput } from "@/lib/api/brain/types";
-import { iconList } from "@/lib/helpers/iconList";
+import { CreateBrainInput } from "lib/api/brainapi/brain/types";
+import { iconList } from "lib/helpers/iconList";
 
 const steps = ["FIRST_STEP", "SECOND_STEP", "THIRD_STEP"] as const;
 

@@ -3,7 +3,7 @@ import { UUID } from "crypto";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import { useBrainApi } from "@/lib/api/brain/useBrainApi";
+import { useBrainApi } from "lib/api/brainapi/brain/useBrainApi";
 import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
 import { defineMaxTokens } from "@/lib/helpers/defineMaxTokens";
 import { getAccessibleModels } from "@/lib/helpers/getAccessibleModels";

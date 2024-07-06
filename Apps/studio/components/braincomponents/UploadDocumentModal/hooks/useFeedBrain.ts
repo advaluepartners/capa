@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import { useFromConnectionsContext } from "@/app/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
-import { useChatApi } from "@/lib/api/chat/useChatApi";
+import { useChatApi } from "lib/api/brainapi/chat/useChatApi";
 import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
 import { useKnowledgeToFeedContext } from "lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
 import { useToast } from "hooks/brainhooks";
