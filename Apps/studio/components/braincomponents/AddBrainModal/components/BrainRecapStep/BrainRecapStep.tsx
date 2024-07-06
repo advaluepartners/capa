@@ -1,6 +1,6 @@
 import { Controller } from "react-hook-form";
 
-import { useFromConnectionsContext } from "@/app/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
+//import { useFromConnectionsContext } from "@/app/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
 import { useUserApi } from "lib/api/brainapi/user/useUserApi";
 import { MessageInfoBox } from "components/braincomponents/ui/MessageInfoBox/MessageInfoBox";
 import QuivrButton from "components/braincomponents/ui/QuivrButton/QuivrButton";
@@ -24,7 +24,7 @@ export const BrainRecapStep = (): JSX.Element => {
   const { createBrain } = useBrainCreationApi();
   const { updateUserIdentity } = useUserApi();
   const { userIdentityData } = useUserData();
-  const { openedConnections } = useFromConnectionsContext();
+  //const { openedConnections } = useFromConnectionsContext();
   const { setIsBrainCreated } = useOnboardingContext();
 
   const feed = async (): Promise<void> => {
