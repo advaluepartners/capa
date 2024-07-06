@@ -2,7 +2,7 @@
 
 import { createContext, useState } from "react";
 
-import { ChatMessage, Notification } from "@/app/chat/[chatId]/types";
+import { ChatMessage, Notification } from "pages/project/[ref]/chat/[chatId]/types";
 
 import { ChatContextProps } from "./types";
 

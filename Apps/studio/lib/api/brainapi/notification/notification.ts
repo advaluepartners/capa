@@ -1,6 +1,6 @@
 import { AxiosInstance } from "axios";
 
-import { Notification } from "@/app/chat/[chatId]/types";
+import { Notification } from "pages/project/[ref]/chat/[chatId]/types";
 
 export const getChatNotifications = async (
   chatId: string,

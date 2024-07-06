@@ -1,6 +1,6 @@
 import { useContext } from "react";
 
-//import { FeedItemType } from "@/app/chat/[chatId]/components/ActionsBar/types";
+import { FeedItemType } from "pages/project/[ref]/chat/[chatId]/components/ActionsBar/types";
 
 import { KnowledgeToFeedContext } from "../knowledgeToFeed-provider";
 
@@ -8,34 +8,34 @@ import { KnowledgeToFeedContext } from "../knowledgeToFeed-provider";
 export const useKnowledgeToFeedContext = () => {
   const context = useContext(KnowledgeToFeedContext);
 
-  // const addKnowledgeToFeed = (knowledge: FeedItemType) => {
-  // context?.setKnowledgeToFeed((prevKnowledge) => [
-  //     ...prevKnowledge,
-  //     knowledge,
-  //   ]);
-  // };
-
-  // const removeKnowledgeToFeed = (index: number) => {
-  //   //context?.setKnowledgeToFeed((prevKnowledge) => {
-  //     const newKnowledge = [...prevKnowledge];
-  //     newKnowledge.splice(index, 1);
-
-  //     return newKnowledge;
-  //   });
-  // };
-
-  const removeAllKnowledgeToFeed = () => {
-    //context?.setKnowledgeToFeed([]);
+  const addKnowledgeToFeed = (knowledge: FeedItemType) => {
+    context?.setKnowledgeToFeed((prevKnowledge) => [
+      ...prevKnowledge,
+      knowledge,
+    ]);
   };
 
-  //if (context === undefined) {
-    //throw new Error("useKnowledge must be used inside KnowledgeToFeedProvider");
-  //}
+  const removeKnowledgeToFeed = (index: number) => {
+    context?.setKnowledgeToFeed((prevKnowledge) => {
+      const newKnowledge = [...prevKnowledge];
+      newKnowledge.splice(index, 1);
+
+      return newKnowledge;
+    });
+  };
+
+  const removeAllKnowledgeToFeed = () => {
+    context?.setKnowledgeToFeed([]);
+  };
+
+  if (context === undefined) {
+    throw new Error("useKnowledge must be used inside KnowledgeToFeedProvider");
+  }
 
   return {
     ...context,
-    //addKnowledgeToFeed,
-    //removeKnowledgeToFeed,
-    //removeAllKnowledgeToFeed,
+    addKnowledgeToFeed,
+    removeKnowledgeToFeed,
+    removeAllKnowledgeToFeed,
   };
 };

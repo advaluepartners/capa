@@ -1,4 +1,4 @@
-import { useFromConnectionsContext } from "@/app/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
+import { useFromConnectionsContext } from "pages/project/[ref]/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
 import { useSync } from "lib/api/brainapi/sync/useSync";
 import { ConnectionIcon } from "components/braincomponents/ui/ConnectionIcon/ConnectionIcon";
 import Icon from "components/braincomponents/ui/Icon/Icon";

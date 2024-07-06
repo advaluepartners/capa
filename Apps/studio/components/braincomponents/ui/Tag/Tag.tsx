@@ -1,4 +1,4 @@
-import { Color } from "@/lib/types/Colors";
+import { Color } from "types/braintypes/Colors";
 
 import styles from "./Tag.module.scss";
 

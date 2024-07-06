@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import { useCrawlApi } from "lib/api/brainapi/crawl/useCrawlApi";
 import { useUploadApi } from "lib/api/brainapi/upload/useUploadApi";
-import { getAxiosErrorParams } from "@/lib/helpers/getAxiosErrorParams";
+import { getAxiosErrorParams } from "lib/helpers/getAxiosErrorParams";
 import { useToast } from "hooks/brainhooks";
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types

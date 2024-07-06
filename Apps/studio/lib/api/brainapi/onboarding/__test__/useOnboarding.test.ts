@@ -1,7 +1,7 @@
 import { renderHook } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 
-import { Onboarding } from "@/lib/types/Onboarding";
+import { Onboarding } from "types/braintypes/Onboarding";
 
 import { useOnboardingApi } from "../useOnboardingApi";
 

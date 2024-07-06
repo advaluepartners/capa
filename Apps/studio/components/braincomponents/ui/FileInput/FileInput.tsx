@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 
-import { iconList } from "@/lib/helpers/iconList";
+import { iconList } from "lib/helpers/iconList";
 
 import styles from "./FileInput.module.scss";
 

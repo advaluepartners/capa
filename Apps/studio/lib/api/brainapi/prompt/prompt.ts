@@ -1,6 +1,6 @@
 import { AxiosInstance } from "axios";
 
-import { Prompt } from "@/lib/types/Prompt";
+import { Prompt } from "types/braintypes/Prompt";
 
 export type CreatePromptProps = {
   title: string;

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { FormProvider, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 
-//import { useFromConnectionsContext } from "@/app/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
+import { useFromConnectionsContext } from "pages/project/[ref]/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
 import { Modal } from "components/braincomponents/ui/Modal/Modal";
 import { addBrainDefaultValues } from "lib/config/defaultBrainConfig";
 import { useKnowledgeToFeedContext } from "lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
@@ -26,9 +26,9 @@ export const AddBrainModal = (): JSX.Element => {
     setIsBrainCreationModalOpened,
     setCurrentSelectedBrain,
   } = useBrainCreationContext();
-  //const { setCurrentSyncId, setOpenedConnections } =
-    //useFromConnectionsContext();
-  //const { removeAllKnowledgeToFeed } = useKnowledgeToFeedContext();
+  const { setCurrentSyncId, setOpenedConnections } =
+    useFromConnectionsContext();
+  const { removeAllKnowledgeToFeed } = useKnowledgeToFeedContext();
 
   const defaultValues: CreateBrainProps = {
     ...addBrainDefaultValues,
@@ -42,10 +42,10 @@ export const AddBrainModal = (): JSX.Element => {
 
   useEffect(() => {
     setCurrentSelectedBrain(undefined);
-    //setCurrentSyncId(undefined);
-    //setOpenedConnections([]);
+    setCurrentSyncId(undefined);
+    setOpenedConnections([]);
     methods.reset(defaultValues);
-    //removeAllKnowledgeToFeed();
+    removeAllKnowledgeToFeed();
   }, [isBrainCreationModalOpened]);
 
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-import { useFromConnectionsContext } from "@/app/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
+import { useFromConnectionsContext } from "pages/project/[ref]/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
 import { OpenedConnection, Provider, Sync } from "lib/api/brainapi/sync/types";
 import { useSync } from "lib/api/brainapi/sync/useSync";
 import QuivrButton from "components/braincomponents/ui/QuivrButton/QuivrButton";

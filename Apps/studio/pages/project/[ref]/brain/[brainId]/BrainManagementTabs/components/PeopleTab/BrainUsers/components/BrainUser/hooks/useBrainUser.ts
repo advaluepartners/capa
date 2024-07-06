@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import { useBrainApi } from "lib/api/brainapi/brain/useBrainApi";
 import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
-import { getAxiosErrorParams } from "@/lib/helpers/getAxiosErrorParams";
+import { getAxiosErrorParams } from "lib/helpers/getAxiosErrorParams";
 import { useToast } from "hooks/brainhooks";
 
 import { BrainRoleType } from "../../../types";

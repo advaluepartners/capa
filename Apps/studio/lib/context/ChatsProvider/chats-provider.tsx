@@ -2,7 +2,7 @@
 
 import { createContext, useState } from "react";
 
-import { ChatEntity } from "@/app/chat/[chatId]/types";
+import { ChatEntity } from "pages/project/[ref]/chat/[chatId]/types";
 
 type ChatsContextType = {
   allChats: ChatEntity[];

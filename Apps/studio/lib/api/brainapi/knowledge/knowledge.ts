@@ -1,7 +1,7 @@
 import { AxiosInstance } from "axios";
 import { UUID } from "crypto";
 
-import { Knowledge } from "@/lib/types/Knowledge";
+import { Knowledge } from "types/braintypes/Knowledge";
 
 export type GetAllKnowledgeInputProps = {
   brainId: UUID;

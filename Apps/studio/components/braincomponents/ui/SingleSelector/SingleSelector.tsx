@@ -1,7 +1,7 @@
 import { UUID } from "crypto";
 import { useState } from "react";
 
-import { iconList } from "@/lib/helpers/iconList";
+import { iconList } from "lib/helpers/iconList";
 
 import styles from "./SingleSelector.module.scss";
 

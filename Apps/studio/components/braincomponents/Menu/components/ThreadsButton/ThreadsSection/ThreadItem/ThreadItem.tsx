@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
-import { ChatEntity } from "@/app/chat/[chatId]/types";
+import { ChatEntity } from "pages/project/[ref]/chat/[chatId]/types";
 import Icon from "components/braincomponents/ui/Icon/Icon";
 import { OptionsModal } from "components/braincomponents/ui/OptionsModal/OptionsModal";
-import { Option } from "@/lib/types/Options";
+import { Option } from "types/braintypes/Options";
 
 import styles from "./ThreadItem.module.scss";
 

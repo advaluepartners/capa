@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 
-import { KnowledgeToFeed } from "@/app/chat/[chatId]/components/ActionsBar/components";
-import { useFromConnectionsContext } from "@/app/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
+import { KnowledgeToFeed } from "pages/project/[ref]/chat/[chatId]/components/ActionsBar/components";
+import { useFromConnectionsContext } from "pages/project/[ref]/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
 import { OpenedConnection } from "lib/api/brainapi/sync/types";
 import { MessageInfoBox } from "components/braincomponents/ui/MessageInfoBox/MessageInfoBox";
 import QuivrButton from "components/braincomponents/ui/QuivrButton/QuivrButton";
 import { useKnowledgeToFeedContext } from "lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
-import { createHandleGetButtonProps } from "@/lib/helpers/handleConnectionButtons";
+import { createHandleGetButtonProps } from "lib/helpers/handleConnectionButtons";
 import { useUserData } from "hooks/brainhooks/useUserData";
 
 import styles from "./FeedBrainStep.module.scss";

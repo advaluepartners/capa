@@ -1,4 +1,4 @@
-import { ChatEntity } from "@/app/chat/[chatId]/types";
+import { ChatEntity } from "pages/project/[ref]/chat/[chatId]/types";
 
 import { ThreadItem } from "./ThreadItem/ThreadItem";
 import styles from "./ThreadsSection.module.scss";

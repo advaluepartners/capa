@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { Tab } from "@/lib/types/Tab";
+import { Tab } from "types/braintypes/Tab";
 
 import styles from "./Tabs.module.scss";
 

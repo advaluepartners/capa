@@ -2,8 +2,8 @@ import { MotionConfig } from "framer-motion";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 
-import { MenuControlButton } from "@/app/chat/[chatId]/components/ActionsBar/components/ChatInput/components/MenuControlButton/MenuControlButton";
-import { useChatsList } from "@/app/chat/[chatId]/hooks/useChatsList";
+import { MenuControlButton } from "pages/project/[ref]/chat/[chatId]/components/ActionsBar/components/ChatInput/components/MenuControlButton/MenuControlButton";
+import { useChatsList } from "pages/project/[ref]/chat/[chatId]/hooks/useChatsList";
 import { QuivrLogo } from "@/lib/assets/QuivrLogo";
 import { nonProtectedPaths } from "@/lib/config/routesConfig";
 import { useMenuContext } from "lib/context/MenuProvider/hooks/useMenuContext";

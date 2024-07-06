@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useMenuContext } from "lib/context/MenuProvider/hooks/useMenuContext";
 import { useUserSettingsContext } from "lib/context/UserSettingsProvider/hooks/useUserSettingsContext";
 import { useDevice } from "hooks/brainhooks/useDevice";
-import { ButtonType } from "@/lib/types/QuivrButton";
+import { ButtonType } from "types/braintypes/QuivrButton";
 
 import { Notifications } from "./Notifications/Notifications";
 import styles from "./PageHeader.module.scss";

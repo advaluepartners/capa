@@ -1,5 +1,5 @@
-import { freeModels, paidModels } from "@/lib/types/BrainConfig";
-import { UserStats } from "@/lib/types/User";
+import { freeModels, paidModels } from "types/braintypes/BrainConfig";
+import { UserStats } from "types/braintypes/User";
 
 type GetAccessibleModelsInput = {
   openAiKey?: string | null;

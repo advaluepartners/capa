@@ -1,6 +1,6 @@
 import { AxiosInstance } from "axios";
 
-import { ChatMessage } from "@/app/chat/[chatId]/types";
+import { ChatMessage } from "pages/project/[ref]/chat/[chatId]/types";
 
 export type QuestionAndAnwser = {
   question: string;

@@ -1,6 +1,6 @@
 import { AxiosInstance } from "axios";
 
-import { SecurityQuestion } from "@/lib/types/SecurityQuestion";
+import { SecurityQuestion } from "types/braintypes/SecurityQuestion";
 
 type CmsSecurityQuestions = {
   data: {

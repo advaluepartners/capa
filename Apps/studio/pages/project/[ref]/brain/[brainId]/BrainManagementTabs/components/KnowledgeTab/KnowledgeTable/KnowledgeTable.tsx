@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Knowledge } from "@/lib/types/Knowledge";
+import { Knowledge } from "types/braintypes/Knowledge";
 
 import KnowledgeItem from "./KnowledgeItem/KnowledgeItem";
 import styles from "./KnowledgeTable.module.scss";

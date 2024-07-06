@@ -1,5 +1,5 @@
-import { Color } from "@/lib/types/Colors";
-import { IconSize } from "@/lib/types/Icons";
+import { Color } from "types/braintypes/Colors";
+import { IconSize } from "types/braintypes/Icons";
 
 import styles from "./LoaderIcon.module.scss";
 

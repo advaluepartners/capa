@@ -1,6 +1,6 @@
 import { AxiosInstance } from "axios";
 
-import { NotificationBanner } from "@/lib/types/NotificationBanner";
+import { NotificationBanner } from "types/braintypes/NotificationBanner";
 
 type CmsNotificationBanner = {
   data: {

@@ -1,7 +1,7 @@
 import { ChangeEvent, useEffect, useState } from "react";
 
 import { usePromptApi } from "lib/api/brainapi/prompt/usePromptApi";
-import { Prompt } from "@/lib/types/Prompt";
+import { Prompt } from "types/braintypes/Prompt";
 
 type UsePublicPromptsProps = {
   onSelect: ({ title, content }: { title: string; content: string }) => void;

@@ -5,10 +5,10 @@ import { useEffect, useRef, useState } from "react";
 import { useKnowledgeApi } from "lib/api/brainapi/knowledge/useKnowledgeApi";
 import Icon from "components/braincomponents/ui/Icon/Icon";
 import { OptionsModal } from "components/braincomponents/ui/OptionsModal/OptionsModal";
-import { getFileIcon } from "@/lib/helpers/getFileIcon";
+import { getFileIcon } from "lib/helpers/getFileIcon";
 import { useUrlBrain } from "hooks/brainhooks/useBrainIdFromUrl";
-import { isUploadedKnowledge, Knowledge } from "@/lib/types/Knowledge";
-import { Option } from "@/lib/types/Options";
+import { isUploadedKnowledge, Knowledge } from "types/braintypes/Knowledge";
+import { Option } from "types/braintypes/Options";
 
 import { useKnowledgeItem } from "./hooks/useKnowledgeItem";
 // eslint-disable-next-line import/order

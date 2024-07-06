@@ -2,7 +2,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import { ChatEntity } from "@/app/chat/[chatId]/types";
+import { ChatEntity } from "pages/project/[ref]/chat/[chatId]/types";
 import { useChatApi } from "lib/api/brainapi/chat/useChatApi";
 import { useChatsContext } from "lib/context/ChatsProvider/hooks/useChatsContext";
 import { useToast } from "hooks/brainhooks";

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-import { Option } from "@/lib/types/Options";
+import { Option } from "types/braintypes/Options";
 
 import styles from "./OptionsModal.module.scss";
 

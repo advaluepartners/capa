@@ -5,7 +5,7 @@ import { useFormContext } from "react-hook-form";
 
 import { Brain } from "lib/context/BrainProvider/types";
 import { useUrlBrain } from "hooks/brainhooks/useBrainIdFromUrl";
-import { BrainConfig, Model } from "@/lib/types/BrainConfig";
+import { BrainConfig, Model } from "types/braintypes/BrainConfig";
 
 import { useBrainFetcher } from "../../../hooks/useBrainFetcher";
 

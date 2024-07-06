@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import { iconList } from "@/lib/helpers/iconList";
-import { Color } from "@/lib/types/Colors";
+import { iconList } from "lib/helpers/iconList";
+import { Color } from "types/braintypes/Colors";
 
 import styles from "./TextButton.module.scss";
 

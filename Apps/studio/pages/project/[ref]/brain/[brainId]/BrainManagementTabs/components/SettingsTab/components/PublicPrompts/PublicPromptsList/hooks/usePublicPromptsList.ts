@@ -1,6 +1,6 @@
 import { ChangeEvent, useEffect, useRef, useState } from "react";
 
-import { Prompt } from "@/lib/types/Prompt";
+import { Prompt } from "types/braintypes/Prompt";
 
 type UsePublicPromptsListProps = {
   onChange: (event: ChangeEvent<HTMLSelectElement>) => void;

@@ -6,7 +6,7 @@ import PageHeader from "components/braincomponents/PageHeader/PageHeader";
 import { UploadDocumentModal } from "components/braincomponents/UploadDocumentModal/UploadDocumentModal";
 import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
 import { useKnowledgeToFeedContext } from "lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
-import { ButtonType } from "@/lib/types/QuivrButton";
+import { ButtonType } from "types/braintypes/QuivrButton";
 
 import { BrainManagementTabs } from "./BrainManagementTabs/BrainManagementTabs";
 import { DeleteOrUnsubscribeConfirmationModal } from "./BrainManagementTabs/components/DeleteOrUnsubscribeModal/DeleteOrUnsubscribeConfirmationModal";

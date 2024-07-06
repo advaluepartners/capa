@@ -1,6 +1,6 @@
 import { AxiosInstance } from "axios";
 
-import { Onboarding } from "@/lib/types/Onboarding";
+import { Onboarding } from "types/braintypes/Onboarding";
 
 export const getOnboarding = async (
   axiosInstance: AxiosInstance

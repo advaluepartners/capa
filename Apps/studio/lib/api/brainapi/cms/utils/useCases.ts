@@ -1,6 +1,6 @@
 import { AxiosInstance } from "axios";
 
-import { UseCase } from "@/lib/types/UseCase";
+import { UseCase } from "types/braintypes/UseCase";
 
 type CmsUseCases = {
   data: {

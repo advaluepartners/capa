@@ -2,8 +2,8 @@ import { UUID } from "crypto";
 
 import { FieldHeader } from "components/braincomponents/ui/FieldHeader/FieldHeader";
 import { SingleSelector } from "components/braincomponents/ui/SingleSelector/SingleSelector";
-import { defineMaxTokens } from "@/lib/helpers/defineMaxTokens";
-import { Model } from "@/lib/types/BrainConfig";
+import { defineMaxTokens } from "lib/helpers/defineMaxTokens";
+import { Model } from "types/braintypes/BrainConfig";
 
 import styles from "./ModelSelection.module.scss";
 
