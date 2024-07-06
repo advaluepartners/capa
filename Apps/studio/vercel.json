@@ -1,9 +1,21 @@
 {
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "NPM_FLAGS": "--legacy-peer-deps",
+      "NODE_ENV": "production"
+    },
     "build": {
       "env": {
-        "NPM_FLAGS": "--legacy-peer-deps"
+        "NPM_FLAGS": "--legacy-peer-deps",
+        "NODE_ENV": "production"
       }
     },
     "installCommand": "npm install $NPM_FLAGS",
     "buildCommand": "npm run build"
   }
+  
