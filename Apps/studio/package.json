@@ -34,7 +34,7 @@
     "@radix-ui/react-tooltip": "^1.0.7",
     "@scaleleap/pg-format": "^1.0.0",
     "@sentry/nextjs": "^7.108.0",
-    "@stdlib/number-float64-base-normalize": "0.2.2",
+    "@stdlib/number-float64-base-normalize": "^0.2.2",
     "@stripe/react-stripe-js": "^2.7.2",
     "@stripe/stripe-js": "^4.0.0",
     "@supabase-cache-helpers/postgrest-react-query": "^1.7.0",
@@ -154,7 +154,6 @@
   },
   "devDependencies": {
     "@aws-sdk/client-secrets-manager": "^3.410.0",
-    "@stdlib/number-float64-base-normalize": "0.2.2",
     "@storybook/addon-essentials": "^7.5.3",
     "@storybook/addon-interactions": "^7.5.3",
     "@storybook/addon-links": "^7.5.3",
