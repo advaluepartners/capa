@@ -172,6 +172,7 @@
     "@types/json-logic-js": "^1.2.1",
     "@types/lodash": "^4.14.172",
     "@types/markdown-table": "^3.0.0",
+    "@types/node": "^20.0.0",
     "@types/papaparse": "^5.3.1",
     "@types/randombytes": "^2.0.3",
     "@types/react": "^18.3.3",
@@ -207,6 +208,7 @@
     "storybook-dark-mode": "^3.0.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.5.3"
+    
   },
 
   "overrides": {
