@@ -7,12 +7,12 @@
     }
   ],
   "env": {
-    "NPM_FLAGS": "--legacy-peer-deps --no-optional",
+    "NPM_FLAGS": "--legacy-peer-deps",
     "NODE_ENV": "production"
   },
   "build": {
     "env": {
-      "NPM_FLAGS": "--legacy-peer-deps --no-optional",
+      "NPM_FLAGS": "--legacy-peer-deps",
       "NODE_ENV": "production"
     }
   },

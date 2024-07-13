@@ -20,6 +20,11 @@
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write ."
   },
+  
+  "engines": {
+      "node": "20.x"
+    },
+
   "dependencies": {
     "@aws-crypto/sha256-browser": "^5.2.0",
     "@dagrejs/dagre": "^1.0.4",
@@ -208,7 +213,7 @@
 
   "overrides": {
   "@stdlib/math-base-special-ldexp": {
-    "@stdlib/number-float64-base-normalize": "0.0.0"
+    "@stdlib/number-float64-base-normalize": "^0.2.2"
   }
 }
 
