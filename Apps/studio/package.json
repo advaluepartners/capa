@@ -3,6 +3,7 @@
   "version": "0.0.9",
   "private": true,
   "scripts": {
+    "preinstall": "apt-get update && apt-get install -y build-essential python",
     "dev": "next dev -p 3000",
     "build": "next build",
     "start": "next start",
@@ -194,7 +195,7 @@
     "husky": "8.0.3",
     "jsdom": "22.1.0",
     "msw": "^2.3.0",
-    "node-gyp": "10.1.0",
+    "node-gyp":"10.2.0",
     "next-router-mock": "^0.9.13",
     "openapi-typescript": "^7.0.2",
     "patch-package": "^8.0.0",
