@@ -3,7 +3,7 @@
   "version": "0.0.9",
   "private": true,
   "scripts": {
-    "preinstall": "npm install -g node-gyp-build", 
+    "preinstall": "npm install -g node-gyp-build",
     "dev": "next dev -p 3000",
     "build": "next build",
     "start": "next start",
@@ -19,11 +19,9 @@
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write ."
   },
-  
   "engines": {
-      "node": "20.x"
-    },
-
+    "node": "20.x"
+  },
   "dependencies": {
     "@aws-crypto/sha256-browser": "^5.2.0",
     "@dagrejs/dagre": "^1.0.4",
@@ -73,10 +71,10 @@
     "ai-commands": "file:../packages/ai-commands",
     "awesome-debounce-promise": "^2.1.0",
     "axios": "^1.7.2",
+    "change-case": "^5.4.2",
     "clsx": "^2.1.1",
     "common": "file:../packages/common",
     "common-tags": "^1.8.2",
-    "change-case": "^5.4.2",
     "config": "file:../packages/config",
     "configcat-js": "^9.5.0",
     "dayjs": "^1.11.10",
@@ -131,15 +129,15 @@
     "react-markdown": "^9.0.1",
     "react-simple-maps": "4.0.0-beta.6",
     "react-tracked": "^2.0.0",
-    "react-virtualized-auto-sizer": "^1.0.20",
     "react-use": "17.4.0",
+    "react-virtualized-auto-sizer": "^1.0.20",
     "react-window": "^1.8.6",
     "react-window-infinite-loader": "^1.0.7",
     "reactflow": "^11.10.1",
     "recharts": "^2.8.0",
     "remark-gfm": "^4.0.0",
-    "semver": "^7.6.2",
     "sass": "^1.70.0",
+    "semver": "^7.6.2",
     "shared-data": "^1.0.5",
     "sharp": "^0.32.6",
     "sql-formatter": "^15.3.2",
@@ -191,30 +189,31 @@
     "@types/uuid": "^8.3.4",
     "@types/zxcvbn": "^4.4.1",
     "@vitest/ui": "^1.6.0",
-    "api-types":"file:../packages/api-types",
+    "api-types": "file:../packages/api-types",
     "autoprefixer": "^10.4.14",
     "common": "file:../packages/common",
     "config": "file:../packages/config",
     "dotenv": "16.3.1",
+    "eslint": "^8.46.0",
+    "eslint-config-next": "14.2.5",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-config-supabase": "file:../packages/eslint-config-supabase",
     "husky": "8.0.3",
     "jsdom": "22.1.0",
     "msw": "^2.3.0",
-    "node-gyp":"10.2.0",
     "next-router-mock": "^0.9.13",
+    "node-gyp": "10.2.0",
     "openapi-typescript": "^7.0.2",
     "postcss": "^8.4.31",
     "prettier": "^4.0.0-alpha.8",
     "storybook-dark-mode": "^3.0.1",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.5.3"
-    
+    "typescript": "^5.5.3",
+    "@typescript-eslint/parser": "^5.0.0"
   },
-
   "overrides": {
-  "@stdlib/math-base-special-ldexp": {
-    "@stdlib/number-float64-base-normalize": "^0.2.2"
+    "@stdlib/math-base-special-ldexp": {
+      "@stdlib/number-float64-base-normalize": "^0.2.2"
+    }
   }
-}
-
 }
