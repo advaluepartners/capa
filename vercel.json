@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
+      "src": "apps/studio/package.json",
       "use": "@vercel/node"
     }
   ],
@@ -16,8 +16,10 @@
       "NODE_ENV": "production"
     }
   },
-  "installCommand": "apt-get update && apt-get install -y build-essential python3 && npm install $NPM_FLAGS",
+  "installCommand": "npm install $NPM_FLAGS",
   "buildCommand": "npm run build"
 }
+
+
 
   

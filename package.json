@@ -51,10 +51,11 @@
   "keywords": [
     "postgres",
     "firebase",
-    "storage",
+    "content-creation",
     "functions",
     "database",
-    "auth"
+    "auth",
+    "ai"
   ],
   "packageManager": "npm@10.8.1",
   "dependencies": {
