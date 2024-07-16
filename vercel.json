@@ -23,7 +23,7 @@
       "SKIP_STDLIB_BUILDS": "true"
     }
   },
-  "installCommand": "bash ./custom-install.sh",
+  "installCommand":"chmod +x ./custom-install.sh && bash ./custom-install.sh",
   "buildCommand": "npm run build:studio"
 }
 
