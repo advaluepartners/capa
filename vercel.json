@@ -2,20 +2,28 @@
   "version": 2,
   "builds": [
     {
-      "src": "apps/studio/package.json",
+      "src": "Apps/studio/package.json",
       "use": "@vercel/next"
     }
   ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/Apps/studio/$1"
+    }
+  ],
   "env": {
-    "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund"
+    "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund",
+    "SKIP_STDLIB_BUILDS": "true"
   },
   "build": {
     "env": {
-      "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund"
+      "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund",
+      "SKIP_STDLIB_BUILDS": "true"
     }
   },
   "installCommand": "npm install $NPM_FLAGS && npm install -g node-gyp@latest && npm install --save-dev typescript",
-  "buildCommand": "cd apps/studio && npm run build"
+  "buildCommand": "cd Apps/studio && npm run build"
 }
 
 

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "ui": "stream",
+  "tasks": {
+    "studio#build": {
+      "dependsOn": ["^build"],
+      "env": [
+        "ANALYZE",
+        "AUTH_JWT_SECRET",
+        "DEFAULT_ORGANIZATION_NAME",
+        "DEFAULT_PROJECT_NAME",
+        "LOGFLARE_API_KEY",
+        "LOGFLARE_URL",
+        "NEXT_PUBLIC_*",
+        "OPENAI_API_KEY",
+        "STUDIO_PG_META_URL",
+        "SUPABASE_ANON_KEY",
+        "SUPABASE_PUBLIC_URL",
+        "SUPABASE_SERVICE_KEY",
+        "SUPABASE_URL"
+      ],
+      "passThroughEnv": ["SENTRY_ORG", "SENTRY_PROJECT", "SENTRY_AUTH_TOKEN"],
+      "outputs": [".next/**", "!.next/cache/**"]
+    }
+
+    },
+    "lint": {
+      "outputs": []
+    },
+    "dev": {
+      "cache": false
+    },
+    "test": {
+      "cache": false
+    },
+    "typecheck": {
+      "dependsOn": ["^typecheck"],
+      "outputs": ["**/node_modules/.cache/tsbuildinfo.json"]
+    }
+  }
