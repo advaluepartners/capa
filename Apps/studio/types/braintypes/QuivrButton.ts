@@ -1,6 +1,6 @@
 import { Color } from "./Colors";
 
-import { iconList } from "../helpers/iconList";
+import { iconList } from "lib/helpers/iconList";
 
 export interface ButtonType {
   label: string;

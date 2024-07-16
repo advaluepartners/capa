@@ -1,6 +1,6 @@
 import { UUID } from "crypto";
 
-import { ApiBrainDefinition } from "../api/brain/types";
+import { ApiBrainDefinition } from "lib/api/brainapi/brain/types";
 
 export const brainStatuses = ["private", "public"] as const;
 

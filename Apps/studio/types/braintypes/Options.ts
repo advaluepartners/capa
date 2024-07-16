@@ -1,4 +1,4 @@
-import { iconList } from "@/lib/helpers/iconList";
+import { iconList } from "lib/helpers/iconList";
 
 import { Color } from "./Colors";
 

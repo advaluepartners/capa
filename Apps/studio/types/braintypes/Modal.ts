@@ -1,4 +1,4 @@
-import { StepValue } from "../components/AddBrainModal/types/types";
+import { StepValue } from "components/braincomponents/AddBrainModal/types/types";
 
 export type Step = {
   label: string;

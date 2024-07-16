@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-import { Step } from "@/lib/types/Modal";
+import { Step } from "types/braintypes/Modal"; 
 
 import { useBrainCreationContext } from "../brainCreation-provider";
 

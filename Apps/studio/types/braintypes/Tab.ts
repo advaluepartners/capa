@@ -1,4 +1,4 @@
-import { iconList } from "../helpers/iconList";
+import { iconList } from "lib/helpers/iconList";
 
 export interface Tab {
   label: string;
