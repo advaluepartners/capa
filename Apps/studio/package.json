@@ -216,9 +216,9 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5.5.3"
   },
-  "overrides": {
-    "@stdlib/math-base-special-ldexp": {
-      "@stdlib/number-float64-base-normalize": "^0.2.2"
-    }
-  }
-}
+//   "overrides": {
+//     "@stdlib/math-base-special-ldexp": {
+//       "@stdlib/number-float64-base-normalize": "^0.2.2"
+//     }
+//   }
+// }

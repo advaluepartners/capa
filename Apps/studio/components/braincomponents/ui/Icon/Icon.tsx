@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { IconType } from "react-icons";
 
 import { iconList } from "lib/helpers/iconList";
-import { Color } from "lib/types/braintypes/Colors";
-import { IconSize } from "lib/types/braintypes/Icons";
+import { Color } from "types/braintypes/Colors";
+import { IconSize } from "types/braintypes/Icons";
 
 import styles from "./Icon.module.scss";
 
