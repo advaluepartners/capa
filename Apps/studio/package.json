@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "preinstall": "npm install -g node-gyp-build",
+    "postinstall": "npm run install-local-packages",
+    "install-local-packages": "cd ../packages/eslint-config-supabase && npm install && cd -",
     "dev": "next dev -p 3000",
     "build": "next build",
     "start": "next start",
@@ -188,6 +190,7 @@
     "@types/sqlstring": "^2.3.0",
     "@types/uuid": "^8.3.4",
     "@types/zxcvbn": "^4.4.1",
+    "@typescript-eslint/parser": "^5.0.0",
     "@vitest/ui": "^1.6.0",
     "api-types": "file:../packages/api-types",
     "autoprefixer": "^10.4.14",
@@ -208,8 +211,7 @@
     "prettier": "^4.0.0-alpha.8",
     "storybook-dark-mode": "^3.0.1",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.5.3",
-    "@typescript-eslint/parser": "^5.0.0"
+    "typescript": "^5.5.3"
   },
   "overrides": {
     "@stdlib/math-base-special-ldexp": {
