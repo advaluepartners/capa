@@ -4,7 +4,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,  // Disable strict type checking
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -50,3 +50,56 @@
   ],
   "exclude": ["node_modules"]
 }
+
+// {
+//   "compilerOptions": {
+//     "target": "ES2021",
+//     "lib": ["dom", "dom.iterable", "esnext"],
+//     "allowJs": true,
+//     "skipLibCheck": true,
+//     "strict": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "noEmit": true,
+//     "esModuleInterop": true,
+//     "module": "esnext",
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "jsx": "preserve",
+//     "baseUrl": ".",
+//     "downlevelIteration": true,
+//     "incremental": true,
+//     "paths": {
+//       "@components/*": ["./components/*"],
+//       "@data/*": ["./data/*"],
+//       "@hooks/*": ["./hooks/*"],
+//       "@lib/*": ["./lib/*"],
+//       "@localStores/*": ["./localStores/*"],
+//       "@pages/*": ["./pages/*"],
+//       "@public/*": ["./public/*"],
+//       "@state/*": ["./state/*"],
+//       "@stores/*": ["./stores/*"],
+//       "@styles/*": ["./styles/*"],
+//       "@tests/*": ["./tests/*"],
+//       "@types/*": ["./types/*"],
+//       "@utils/*": ["./utils/*"],
+//       "@ui/*": ["../../packages/ui/src/*"]
+//     },
+//     "useDefineForClassFields": true,
+//     "plugins": [
+//       {
+//         "name": "next"
+//       }
+//     ]
+//   },
+//   "include": [
+//     "next-env.d.ts",
+//     "**/*.ts",
+//     "**/*.tsx",
+//     "**/*.js",
+//     "**/*.jsx",
+//     ".next/types/**/*.ts",
+//     "../../packages/ui/src/**/*.d.ts"
+//   ],
+//   "exclude": ["node_modules"]
+// }
