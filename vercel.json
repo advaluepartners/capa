@@ -22,7 +22,7 @@
       "SKIP_STDLIB_BUILDS": "true"
     }
   },
-  "installCommand": "npm install $NPM_FLAGS && npm install -g node-gyp@latest && npm install --save-dev typescript",
+  "installCommand": "npm install $NPM_FLAGS",
   "buildCommand":  "npm run build:studio"
 }
 
