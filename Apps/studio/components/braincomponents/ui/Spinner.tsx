@@ -1,6 +1,6 @@
 import { FaSpinner } from "react-icons/fa";
 
-import { cn } from "@/lib/utils";
+import { cn } from "lib/utils";
 
 type SpinnerProps = {
   className?: string;

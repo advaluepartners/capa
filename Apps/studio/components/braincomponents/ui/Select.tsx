@@ -8,7 +8,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "components/braincomponents/ui/Popover";
-import { cn } from "@/lib/utils";
+import { cn } from "lib/utils";
 
 export type SelectOptionProps<T> = {
   label: string;

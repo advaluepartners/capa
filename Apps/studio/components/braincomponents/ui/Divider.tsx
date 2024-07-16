@@ -1,7 +1,7 @@
 /* eslint-disable */
 import { forwardRef, HTMLAttributes, LegacyRef } from "react";
 
-import { cn } from "@/lib/utils";
+import { cn } from "lib/utils";
 
 type DividerProps = HTMLAttributes<HTMLDivElement> & {
   text?: string;
