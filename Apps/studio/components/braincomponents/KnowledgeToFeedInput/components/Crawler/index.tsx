@@ -31,7 +31,7 @@ export const Crawler = (): JSX.Element => {
             value={urlToCrawl}
             onChange={(e) => setUrlToCrawl(e.target.value)}
             icon={
-              <Button data-testid="urlToCrawlInputSubmit" variant={"tertiary"}>
+              <Button data-testid="urlToCrawlInputSubmit">
                 <MdSend />
               </Button>
             }
