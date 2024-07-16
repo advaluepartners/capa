@@ -3,7 +3,7 @@
   "version": "0.0.9",
   "private": true,
   "scripts": {
-   "preinstall": "npm install --ignore-scripts=false --verbose node-gyp@latest",
+   "preinstall": "npm install --ignore-scripts=false --verbose && npm install -g node-gyp@latest",
     "postinstall": "node ./scripts/patch-stdlib.js",
     "dev": "next dev -p 3000",
     "build": "next build && tsc --noEmit --skipLibCheck || true",

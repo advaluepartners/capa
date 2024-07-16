@@ -23,7 +23,7 @@
       "SKIP_STDLIB_BUILDS": "true"
     }
   },
-  "installCommand": "npm install $NPM_FLAGS --verbose && npm ls && npm install -g node-gyp@latest && cd Apps/studio && npm install --ignore-scripts && cd ../..",
+  "installCommand": "npm install $NPM_FLAGS --verbose && npm ls && npm install -g node-gyp@latest && cd Apps/studio && npm install --ignore-scripts",
   "buildCommand": "npm run build:studio"
 
 
