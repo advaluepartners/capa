@@ -23,8 +23,9 @@
       "SKIP_STDLIB_BUILDS": "true"
     }
   },
-  "installCommand": "cd Apps/studio && npm install -g node-gyp@latest && npm install $NPM_FLAGS --ignore-scripts && node ./scripts/patch-stdlib.js && npm install $NPM_FLAGS && npm ls",
-  "buildCommand": "cd Apps/studio && npm run build"
+  "installCommand": "npm install $NPM_FLAGS --verbose && npm ls && npm install -g node-gyp@latest && cd Apps/studio && npm install --ignore-scripts && cd ../..",
+  "buildCommand": "npm run build:studio"
+
 
 }
 
