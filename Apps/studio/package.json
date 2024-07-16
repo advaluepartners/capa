@@ -73,6 +73,7 @@
     "awesome-debounce-promise": "^2.1.0",
     "axios": "^1.7.2",
     "change-case": "^5.4.2",
+    "class-variance-authority": "0.7.0",
     "clsx": "^2.1.1",
     "common": "file:../packages/common",
     "common-tags": "^1.8.2",
