@@ -99,7 +99,7 @@ export const useBrainCreationApi = () => {
     });
   };
 
-  const { mutate, isPending: isBrainCreationPending } = useMutation({
+  const { mutate, isLoading: isBrainCreationPending } = useMutation({
     mutationFn: createBrain,
     onSuccess: () => {
       publish({
