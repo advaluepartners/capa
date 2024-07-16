@@ -3,7 +3,7 @@
   "version": "0.0.9",
   "private": true,
   "scripts": {
-    "preinstall": "npm install -g node-gyp-build && npm install -g node-gyp && npm install -g python",
+   "preinstall": "npm install --ignore-scripts=false --verbose node-gyp@latest",
     "postinstall": "if [ -d \"../packages/eslint-config-supabase\" ]; then cd ../packages/eslint-config-supabase && npm install && cd -; fi",
     "dev": "next dev -p 3000",
     "build": "next build && tsc --noEmit --skipLibCheck || true",
