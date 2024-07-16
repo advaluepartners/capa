@@ -1,7 +1,7 @@
 import {
   Language,
   useLanguageHook,
-} from "@/app/user/components/LanguageSelect/hooks/useLanguageHook";
+} from "user/components/LanguageSelect/hooks/useLanguageHook";
 
 import styles from "./CountrySelector.module.scss";
 
