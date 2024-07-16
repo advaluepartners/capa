@@ -1,12 +1,9 @@
 "use client";
 import { usePathname, useRouter } from "next/navigation";
 import { ReactNode, useEffect, useState } from "react";
+import ChatPage from "./[chatId]/page";
 
-interface LayoutProps {
-  children?: ReactNode;
-}
-
-const Layout = ({ children }: LayoutProps): JSX.Element => {
+const Index = ({ children }: { children?: ReactNode }): JSX.Element => {
   const pathname = usePathname();
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(true);
@@ -25,9 +22,10 @@ const Layout = ({ children }: LayoutProps): JSX.Element => {
 
   return (
     <div className="relative h-full w-full flex justify-stretch items-stretch overflow-auto">
-      {children}
+      <ChatPage />
     </div>
   );
 };
 
-export default Layout;
+export default Index;
+
