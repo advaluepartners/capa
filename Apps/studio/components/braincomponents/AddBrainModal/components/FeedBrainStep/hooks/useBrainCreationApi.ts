@@ -5,12 +5,12 @@ import { useState } from "react";
 import { useFormContext } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 
-import { useFromConnectionsContext } from "@/app/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
+import { useFromConnectionsContext } from "pages/project/[ref]/chat/[chatId]/components/ActionsBar/components/KnowledgeToFeed/components/FromConnections/FromConnectionsProvider/hooks/useFromConnectionContext";
 import { PUBLIC_BRAINS_KEY } from "lib/api/brainapi/brain/config";
 import { IntegrationSettings } from "lib/api/brainapi/brain/types";
 import { useSync } from "lib/api/brainapi/sync/useSync";
 import { CreateBrainProps } from "components/braincomponents/AddBrainModal/types/types";
-import { useKnowledgeToFeedInput } from "@/lib/components/KnowledgeToFeedInput/hooks/useKnowledgeToFeedInput.ts";
+import { useKnowledgeToFeedInput } from "components/braincomponents/KnowledgeToFeedInput/hooks/useKnowledgeToFeedInput.ts";
 import { useBrainContext } from "lib/context/BrainProvider/hooks/useBrainContext";
 import { useKnowledgeToFeedContext } from "lib/context/KnowledgeToFeedProvider/hooks/useKnowledgeToFeedContext";
 import { useToast } from "hooks/brainhooks";
