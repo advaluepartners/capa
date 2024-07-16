@@ -99,7 +99,7 @@ export const BrainRecapStep = (): JSX.Element => {
             label="URL"
             number={
               knowledgeToFeed.filter(
-                (knowledge) => knowledge.source === "crawl"
+                (knowledge: { source: string; }) => knowledge.source === "crawl"
               ).length
             }
           />
@@ -107,7 +107,7 @@ export const BrainRecapStep = (): JSX.Element => {
             label="Document"
             number={
               knowledgeToFeed.filter(
-                (knowledge) => knowledge.source === "upload"
+                (knowledge: { source: string; }) => knowledge.source === "upload"
               ).length
             }
           />
