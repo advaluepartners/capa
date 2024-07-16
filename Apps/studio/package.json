@@ -4,8 +4,6 @@
   "private": true,
   "scripts": {
     "preinstall": "npm install -g node-gyp-build",
-    "postinstall": "npm run install-local-packages",
-    "install-local-packages": "cd ../packages/eslint-config-supabase && npm install && cd -",
     "dev": "next dev -p 3000",
     "build": "next build",
     "start": "next start",
