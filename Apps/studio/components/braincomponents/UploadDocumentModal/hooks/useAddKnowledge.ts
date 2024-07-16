@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-import { useKnowledge } from "@/app/studio/[brainId]/BrainManagementTabs/components/KnowledgeTab/hooks/useKnowledge";
+import { useKnowledge } from "pages/project/[ref]/brain/[brainId]/BrainManagementTabs/components/KnowledgeTab/hooks/useKnowledge";
 import { useUrlBrain } from "hooks/brainhooks/useBrainIdFromUrl";
 
 import { useFeedBrain } from "./useFeedBrain";
