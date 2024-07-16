@@ -6,7 +6,8 @@
   "license": "Apache-2.0",
   "private": true,
   "workspaces": [
-    "apps/studio"
+    "apps/studio",
+    "packages/*"
   
   ],
   "scripts": {
@@ -73,6 +74,8 @@
     "react-icons": "^5.2.1",
     "react-markdown": "^8.0.0",
     "typescript": "^5.5.3"
+
+    
 
   }
   
