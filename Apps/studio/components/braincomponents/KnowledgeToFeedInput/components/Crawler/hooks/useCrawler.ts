@@ -7,8 +7,8 @@ import { useSupabase } from "lib/context/SupabaseProvider";
 import { useToast } from "hooks/brainhooks";
 import { useOnboarding } from "hooks/brainhooks/useOnboarding";
 import { useOnboardingTracker } from "hooks/brainhooks/useOnboardingTracker";
-import { redirectToLogin } from "@/lib/router/redirectToLogin";
-import { useEventTracking } from "@/services/analytics/june/useEventTracking";
+import { redirectToLogin } from "lib/router/redirectToLogin";
+import { useEventTracking } from "services/analytics/june/useEventTracking";
 
 import { isValidUrl } from "../helpers/isValidUrl";
 

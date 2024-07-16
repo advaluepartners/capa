@@ -5,7 +5,7 @@ import { IoCloudUploadOutline } from "react-icons/io5";
 import Card from "components/braincomponents/ui/Card";
 import { useSupabase } from "lib/context/SupabaseProvider";
 import { useCustomDropzone } from "hooks/brainhooks/useDropzone";
-import { redirectToLogin } from "@/lib/router/redirectToLogin";
+import { redirectToLogin } from "lib/router/redirectToLogin";
 
 export const FileUploader = (): JSX.Element => {
   const { session } = useSupabase();
