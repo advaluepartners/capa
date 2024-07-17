@@ -14,7 +14,7 @@
     "cleanup": "node scripts/agressive-cleanup.js",
     "preinstall": "npm install -g npm@10.8.1",
     "install-all": "node scripts/install.js",
-    "postinstall": "turbo run build",
+    "postinstall": "cd Apps/studio && npm install --no-optional --no-audit --no-fund",
     "build": "turbo run build",
     "build:studio":  "turbo run build --filter=studio --verbose",
     "dev": "turbo run dev --parallel",
