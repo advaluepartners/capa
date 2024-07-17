@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "buildCommand": "npm run build:studio --verbose",
-  "installCommand": "npm install",
+  "buildCommand": "npm run build:studio -- --verbose",
   "outputDirectory": "Apps/studio/.next",
+  "installCommand": "npm install --verbose",
   "env": {
-    "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund"
+    "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund",
+    "TURBO_TELEMETRY_DISABLED": "1"
   }
 }
 
