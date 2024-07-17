@@ -5,6 +5,7 @@
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "typecheck_CURRENTLY_IGNORED": "tsc --noEmit"
   },
   "dependencies": {

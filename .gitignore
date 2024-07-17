@@ -11,6 +11,8 @@ yarn-error.log*
 Thumbs.db
 jspm_packages/
 .npm
+.turbo
+.next
 .eslintcache
 .node_repl_history
 .vscode/

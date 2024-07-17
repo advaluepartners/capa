@@ -2,8 +2,13 @@
   "$schema": "https://turbo.build/schema.json",
   "ui": "stream",
   "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [".next/**", "!.next/cache/**"]
+    },
     "studio#build": {
       "dependsOn": ["^build"],
+      "outputs": ["Apps/studio/.next/**", "!Apps/studio/.next/cache/**"],
       "env": [
         "ANALYZE",
         "AUTH_JWT_SECRET",
@@ -21,20 +26,17 @@
       ],
       "passThroughEnv": ["SENTRY_ORG", "SENTRY_PROJECT", "SENTRY_AUTH_TOKEN"],
       "outputs": [".next/**", "!.next/cache/**"]
-    }
-
     },
+
     "lint": {
       "outputs": []
     },
-    "dev": {
-      "cache": false
-    },
     "test": {
-      "cache": false
+      "outputs": []
     },
     "typecheck": {
       "dependsOn": ["^typecheck"],
       "outputs": ["**/node_modules/.cache/tsbuildinfo.json"]
     }
   }
+}

@@ -4,7 +4,9 @@
   "description": "Data shared between Supabase apps",
   "main": "./index.ts",
   "types": "./index.ts",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "author": "",
   "license": "MIT"
 }

@@ -5,6 +5,9 @@
   "author": "Supabase",
   "main": "./src/index.ts",
   "repository": "supabase/supabase",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "@supabase/postgres-meta": "^0.83.2",
     "pg-format": "^1.0.4",

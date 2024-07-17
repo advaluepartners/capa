@@ -1,32 +1,18 @@
-
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "Apps/studio/package.json",
-      "use": "@vercel/next"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/Apps/studio/$1"
-    }
-  ],
+  "buildCommand": "npm run build:studio",
+  "installCommand": "npm install",
+  "outputDirectory": "Apps/studio/.next",
+  "devCommand": "npm run dev:studio",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD Apps/studio/",
   "env": {
-    "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund",
-    "SKIP_STDLIB_BUILDS": "true"
+    "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund"
   },
   "build": {
     "env": {
-      "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund",
-      "SKIP_STDLIB_BUILDS": "true"
+      "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund"
     }
-  },
-  "installCommand": "npm install $NPM_FLAGS --verbose && npm ls && npm install -g node-gyp@latest && cd Apps/studio && npm install --ignore-scripts",
-  "buildCommand": "npm run build:studio"
-
-
+  }
 }
 
 
