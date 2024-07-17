@@ -6,21 +6,6 @@ const rootDir = process.cwd();
 const packagesDir = path.join(rootDir, 'packages');
 const appsDir = path.join(rootDir, 'Apps');
 
-function forceRemove(dir) {
-  try {
-    fs.removeSync(dir);
-    console.log(`Removed ${dir}`);
-  } catch (error) {
-    console.error(`Failed to remove ${dir}. Trying with rm -rf...`);
-    try {
-      execSync(`rm -rf "${dir}"`, { stdio: 'inherit' });
-      console.log(`Removed ${dir} with rm -rf`);
-    } catch (rmError) {
-      console.error(`Failed to remove ${dir} with rm -rf. Please remove it manually.`);
-    }
-  }
-}
-
 function cleanDirectory(dir) {
   console.log(`Cleaning ${dir}...`);
   
@@ -34,7 +19,8 @@ function cleanDirectory(dir) {
   // Remove node_modules
   const nodeModules = path.join(dir, 'node_modules');
   if (fs.existsSync(nodeModules)) {
-    forceRemove(nodeModules);
+    fs.removeSync(nodeModules);
+    console.log(`Removed ${nodeModules}`);
   }
 }
 
@@ -57,4 +43,4 @@ fs.readdirSync(appsDir).forEach(appName => {
   }
 });
 
-console.log('Aggressive cleanup completed.');
+console.log('Cleanup completed successfully!');

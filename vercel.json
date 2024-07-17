@@ -1,17 +1,10 @@
 {
   "version": 2,
-  "buildCommand": "npm run build:studio",
+  "buildCommand": "npm run build:studio --verbose",
   "installCommand": "npm install",
   "outputDirectory": "Apps/studio/.next",
-  "devCommand": "npm run dev:studio",
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD Apps/studio/",
   "env": {
     "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund"
-  },
-  "build": {
-    "env": {
-      "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund"
-    }
   }
 }
 
