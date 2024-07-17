@@ -5,8 +5,7 @@
   "installCommand": "npm install --verbose",
   "env": {
     "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund",
-    "TURBO_TELEMETRY_DISABLED": "1",
-    "SKIP_STDLIB_BUILDS": "true"
+    "TURBO_TELEMETRY_DISABLED": "1"
   }
 }
 

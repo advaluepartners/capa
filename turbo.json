@@ -10,7 +10,6 @@
       "dependsOn": ["^build"],
       "outputs": ["Apps/studio/.next/**", "!Apps/studio/.next/cache/**"],
       "env": [
-        "SKIP_STDLIB_BUILDS",
         "ANALYZE",
         "AUTH_JWT_SECRET",
         "DEFAULT_ORGANIZATION_NAME",

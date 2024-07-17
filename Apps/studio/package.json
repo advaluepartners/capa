@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
    "preinstall": "npm config set ignore-scripts true",
-   "postinstall": "node patch-stdlib.js",
     "dev": "next dev -p 3000",
     "build": "next build && tsc --noEmit --skipLibCheck || true",
     "start": "next start",
@@ -47,7 +46,9 @@
     "@radix-ui/react-tooltip": "1.0.6",
     "@scaleleap/pg-format": "^1.0.0",
     "@sentry/nextjs": "^7.108.0",
-    "@stdlib/number-float64-base-normalize": "0.0.9",
+    "@stdlib/number-float64": "0.2.1",
+    "@stdlib/number-float64-base": "0.2.1",
+    "@stdlib/number-float64-base-normalize": "0.2.2",
     "@stripe/react-stripe-js": "^2.7.2",
     "@stripe/stripe-js": "^4.0.0",
     "@supabase-cache-helpers/postgrest-react-query": "^1.7.0",
