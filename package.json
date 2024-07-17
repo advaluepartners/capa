@@ -12,9 +12,9 @@
   ],
   "scripts": {
     "cleanup": "node scripts/agressive-cleanup.js",
-    "preinstall": "npm install -g npm@10.8.1 && npm config set python /usr/bin/python3.12",   
+    "preinstall": "npm install -g npm@10.8.1",   
     "install-all": "node scripts/install.js",
-    "postinstall": "npm run patch-stdlib && cd Apps/studio && npm install --no-optional --no-audit --no-fund --python=/usr/bin/python3.12",
+    "postinstall": "cd Apps/studio && npm install --no-optional --no-audit --no-fund",
     "patch-stdlib": "node scripts/patch-stdlib.js",
     "build": "turbo run build",
     "build:studio":  "turbo run build --filter=studio --verbose",
@@ -74,7 +74,6 @@
     "libpg-query": "^15.2.0",
     "lucide-react": "^0.397.0",
     "next": "^14.2.4",
-    "node-gyp": "10.0.1",
     "posthog-js": "^1.141.3",
     "react-i18next": "^14.1.2",
     "react-icons": "^5.2.1",
@@ -82,9 +81,6 @@
     "typescript": "^5.5.3"
   },
   "overrides": {
-    "@stdlib/number-float64-base-normalize": "0.0.9"
-  },
-  "resolutions": {
     "@stdlib/number-float64-base-normalize": "0.0.9"
   }
 }
