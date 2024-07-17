@@ -3,7 +3,7 @@
   "version": "0.0.9",
   "private": true,
   "scripts": {
-   "preinstall": "npm config set ignore-scripts true",
+   "preinstall": "npm config set python /usr/bin/python3.12 && npm config set ignore-scripts false",
     "dev": "next dev -p 3000",
     "build": "next build && tsc --noEmit --skipLibCheck || true",
     "start": "next start",
@@ -47,6 +47,7 @@
     "@scaleleap/pg-format": "^1.0.0",
     "@sentry/nextjs": "^7.108.0",
     "@stdlib/number-float64": "0.2.1",
+    "@stdlib/number-float64-base-normalize": "0.0.9",
     "@stripe/react-stripe-js": "^2.7.2",
     "@stripe/stripe-js": "^4.0.0",
     "@supabase-cache-helpers/postgrest-react-query": "^1.7.0",
@@ -224,6 +225,11 @@
     "storybook-dark-mode": "^3.0.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.5.3"
+
+  },
+  "resolutions": {
+    "@stdlib/number-float64-base-normalize": "0.0.9"
   }
+  
 
 }

@@ -2,7 +2,7 @@
   "version": 2,
   "buildCommand": "npm run build:studio -- --verbose",
   "outputDirectory": "Apps/studio/.next",
-  "installCommand": "npm install --verbose",
+  "installCommand": "npm install --python=/usr/bin/python3.12 --verbose",
   "env": {
     "NPM_FLAGS": "--legacy-peer-deps --no-audit --no-fund",
     "TURBO_TELEMETRY_DISABLED": "1",
