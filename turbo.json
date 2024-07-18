@@ -20,10 +20,15 @@
         "NEXT_PUBLIC_*",
         "OPENAI_API_KEY",
         "STUDIO_PG_META_URL",
+        "PLATFORM_PG_META_URL",
         "SUPABASE_ANON_KEY",
         "SUPABASE_PUBLIC_URL",
         "SUPABASE_SERVICE_KEY",
-        "SUPABASE_URL"
+        "SUPABASE_URL",
+        "NEXT_PUBLIC_API_URL",
+        "READ_ONLY_API_KEY",
+        "READ_ONLY_URL"
+
       ],
       "passThroughEnv": ["SENTRY_ORG", "SENTRY_PROJECT", "SENTRY_AUTH_TOKEN"],
       "outputs": [".next/**", "!.next/cache/**"]

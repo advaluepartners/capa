@@ -13,10 +13,10 @@ const SUPABASE_URL = process.env.SUPABASE_URL ? new URL(process.env.SUPABASE_URL
 const GOTRUE_URL = process.env.NEXT_PUBLIC_GOTRUE_URL
   ? new URL(process.env.NEXT_PUBLIC_GOTRUE_URL).origin
   : ''
-// const SUPABASE_PROJECTS_URL = 'https://*.supabase.co'
-// const SUPABASE_PROJECTS_URL_WS = 'wss://*.supabase.co'
-const SUPABASE_PROJECTS_URL = 'https://vfstiltjrbndziotcluh.supabase.co'
-const SUPABASE_PROJECTS_URL_WS = 'wss://vfstiltjrbndziotcluh.supabase.co'
+const SUPABASE_PROJECTS_URL = 'https://*.supabase.co'
+const SUPABASE_PROJECTS_URL_WS = 'wss://*.supabase.co'
+// const SUPABASE_PROJECTS_URL = 'https://vfstiltjrbndziotcluh.supabase.co'
+// const SUPABASE_PROJECTS_URL_WS = 'wss://vfstiltjrbndziotcluh.supabase.co'
 
 
 // construct the URL for the Websocket Local URLs
@@ -93,8 +93,8 @@ const csp = [
   `form-action 'self';`,
   `frame-ancestors 'none';`,
   `block-all-mixed-content;`,
-  ...(process.env.NEXT_PUBLIC_IS_PLATFORM === 'false' &&
-  process.env.NEXT_PUBLIC_ENVIRONMENT === 'test'
+  ...(process.env.NEXT_PUBLIC_IS_PLATFORM === 'true' &&
+  process.env.NEXT_PUBLIC_ENVIRONMENT === 'local'
     ? [`upgrade-insecure-requests;`]
     : []),
 ].join(' ')

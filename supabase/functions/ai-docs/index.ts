@@ -9,8 +9,8 @@ import {
   CreateChatCompletionRequest,
   OpenAIApi,
 } from 'https://esm.sh/openai@3.2.1'
-import { ApplicationError, UserError } from '../common/errors.ts'
-import { getChatRequestTokenCount, getMaxTokenCount, tokenizer } from '../common/tokenizer.ts'
+import { ApplicationError, UserError } from '../common/errors.js'
+import { getChatRequestTokenCount, getMaxTokenCount, tokenizer } from '../common/tokenizer.js'
 
 enum MessageRole {
   User = 'user',

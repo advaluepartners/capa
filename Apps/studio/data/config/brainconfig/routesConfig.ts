@@ -1,1 +1,1 @@
-export const nonProtectedPaths = ["/", "/login", "/signup"];
+export const nonProtectedPaths = ["/", "/brainlogin", "/brainsignup"];

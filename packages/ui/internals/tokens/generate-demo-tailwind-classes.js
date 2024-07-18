@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const color = require('./../../build/css/tw-extend/color')
+const color = require('../../build/css/tw-extend/color')
 
 /**
  *

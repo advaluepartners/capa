@@ -1,7 +1,7 @@
 import React from 'react'
 // import { AutoForm } from 'uniforms'
 // @ts-ignore
-import MarkdownExample from './../../lib/MarkdownSample.md'
+import MarkdownExample from '../../lib/MarkdownSample.md'
 import ReactMarkdown from 'react-markdown'
 const gfm = require('remark-gfm')
 
